@@ -1,0 +1,2949 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:36d451dd-e90d-4033-a262-497fed860d4b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-05T14:55:40Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Amazon Web Services, Inc. (AWS)",
+          "name": "inspector-sbomgen",
+          "version": "1.1.0",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "3b79593222fde0997f835de9a31b6c4f8eecba2126dee17d7c6a2455f0d2c140"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "comp-1",
+      "type": "container",
+      "name": "amazonlinux:latest",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:image_id",
+          "value": "sha256:1aaf1d083000f30700474ebb180fb7023d16d66fd85baf31353866c319bcb0de"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:e01aa0f0f02c1818206b310616e8d77498f954207dc6dac90fceb0f062981ddb"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "comp-2",
+      "type": "operating-system",
+      "name": "Amazon Linux",
+      "version": "2023"
+    },
+    {
+      "bom-ref": "comp-3",
+      "type": "application",
+      "name": "tzdata",
+      "version": "2024a-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/tzdata@2024a-1.amzn2023.0.1?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-4",
+      "type": "application",
+      "name": "ncurses-base",
+      "version": "6.2-4.20200222.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/ncurses-base@6.2-4.20200222.amzn2023.0.5?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-5",
+      "type": "application",
+      "name": "ncurses",
+      "version": "6.2-4.20200222.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/ncurses@6.2-4.20200222.amzn2023.0.5?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-6",
+      "type": "application",
+      "name": "ncurses-libs",
+      "version": "6.2-4.20200222.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/ncurses-libs@6.2-4.20200222.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-7",
+      "type": "application",
+      "name": "ncurses",
+      "version": "6.2-4.20200222.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/ncurses@6.2-4.20200222.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-8",
+      "type": "application",
+      "name": "setup",
+      "version": "2.13.7-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/setup@2.13.7-3.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-9",
+      "type": "application",
+      "name": "basesystem",
+      "version": "11-11.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/basesystem@11-11.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-10",
+      "type": "application",
+      "name": "glibc-common",
+      "version": "2.34-52.amzn2023.0.7",
+      "purl": "pkg:rpm/amazon/glibc-common@2.34-52.amzn2023.0.7?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-11",
+      "type": "application",
+      "name": "glibc",
+      "version": "2.34-52.amzn2023.0.7",
+      "purl": "pkg:rpm/amazon/glibc@2.34-52.amzn2023.0.7?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-12",
+      "type": "application",
+      "name": "xz-libs",
+      "version": "5.2.5-9.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/xz-libs@5.2.5-9.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-13",
+      "type": "application",
+      "name": "xz",
+      "version": "5.2.5-9.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/xz@5.2.5-9.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-14",
+      "type": "application",
+      "name": "libzstd",
+      "version": "1.5.5-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/libzstd@1.5.5-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-15",
+      "type": "application",
+      "name": "zstd",
+      "version": "1.5.5-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/zstd@1.5.5-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-16",
+      "type": "application",
+      "name": "libcap",
+      "version": "2.48-2.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libcap@2.48-2.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-17",
+      "type": "application",
+      "name": "libxml2",
+      "version": "2.10.4-1.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/libxml2@2.10.4-1.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-18",
+      "type": "application",
+      "name": "lua-libs",
+      "version": "5.4.4-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/lua-libs@5.4.4-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-19",
+      "type": "application",
+      "name": "lua",
+      "version": "5.4.4-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/lua@5.4.4-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-20",
+      "type": "application",
+      "name": "elfutils-libelf",
+      "version": "0.188-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/elfutils-libelf@0.188-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-21",
+      "type": "application",
+      "name": "elfutils",
+      "version": "0.188-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/elfutils@0.188-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-22",
+      "type": "application",
+      "name": "libffi",
+      "version": "3.4.4-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/libffi@3.4.4-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-23",
+      "type": "application",
+      "name": "readline",
+      "version": "8.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/readline@8.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-24",
+      "type": "application",
+      "name": "libassuan",
+      "version": "2.5.5-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libassuan@2.5.5-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-25",
+      "type": "application",
+      "name": "expat",
+      "version": "2.5.0-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/expat@2.5.0-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-26",
+      "type": "application",
+      "name": "libattr",
+      "version": "2.5.1-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libattr@2.5.1-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-27",
+      "type": "application",
+      "name": "attr",
+      "version": "2.5.1-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/attr@2.5.1-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-28",
+      "type": "application",
+      "name": "libcomps",
+      "version": "0.1.18-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libcomps@0.1.18-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-29",
+      "type": "application",
+      "name": "libgcrypt",
+      "version": "1.10.2-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/libgcrypt@1.10.2-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-30",
+      "type": "application",
+      "name": "libcap-ng",
+      "version": "0.8.2-4.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libcap-ng@0.8.2-4.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-31",
+      "type": "application",
+      "name": "libverto",
+      "version": "0.3.2-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libverto@0.3.2-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-32",
+      "type": "application",
+      "name": "libsepol",
+      "version": "3.4-3.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libsepol@3.4-3.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-33",
+      "type": "application",
+      "name": "npth",
+      "version": "1.6-6.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/npth@1.6-6.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-34",
+      "type": "application",
+      "name": "gpgme",
+      "version": "1.15.1-6.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/gpgme@1.15.1-6.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-35",
+      "type": "application",
+      "name": "alternatives",
+      "version": "1.15-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/alternatives@1.15-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-36",
+      "type": "application",
+      "name": "chkconfig",
+      "version": "1.15-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/chkconfig@1.15-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-37",
+      "type": "application",
+      "name": "p11-kit-trust",
+      "version": "0.24.1-2.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/p11-kit-trust@0.24.1-2.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-38",
+      "type": "application",
+      "name": "p11-kit",
+      "version": "0.24.1-2.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/p11-kit@0.24.1-2.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-39",
+      "type": "application",
+      "name": "gawk",
+      "version": "5.1.0-3.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/gawk@5.1.0-3.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-40",
+      "type": "application",
+      "name": "json-c",
+      "version": "0.14-8.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/json-c@0.14-8.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-41",
+      "type": "application",
+      "name": "libyaml",
+      "version": "0.2.5-5.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libyaml@0.2.5-5.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-42",
+      "type": "application",
+      "name": "libidn2",
+      "version": "2.3.2-1.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/libidn2@2.3.2-1.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-43",
+      "type": "application",
+      "name": "elfutils-default-yama-scope",
+      "version": "0.188-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/elfutils-default-yama-scope@0.188-3.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-44",
+      "type": "application",
+      "name": "elfutils",
+      "version": "0.188-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/elfutils@0.188-3.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-45",
+      "type": "application",
+      "name": "libreport-filesystem",
+      "version": "2.15.2-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libreport-filesystem@2.15.2-2.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-46",
+      "type": "application",
+      "name": "libreport",
+      "version": "2.15.2-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libreport@2.15.2-2.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-47",
+      "type": "application",
+      "name": "pcre2-syntax",
+      "version": "10.40-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/pcre2-syntax@10.40-1.amzn2023.0.3?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-48",
+      "type": "application",
+      "name": "pcre2",
+      "version": "10.40-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/pcre2@10.40-1.amzn2023.0.3?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-49",
+      "type": "application",
+      "name": "libselinux",
+      "version": "3.4-5.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libselinux@3.4-5.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-50",
+      "type": "application",
+      "name": "sed",
+      "version": "4.8-7.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/sed@4.8-7.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-51",
+      "type": "application",
+      "name": "libmount",
+      "version": "2.37.4-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libmount@2.37.4-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-52",
+      "type": "application",
+      "name": "util-linux",
+      "version": "2.37.4-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/util-linux@2.37.4-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-53",
+      "type": "application",
+      "name": "ca-certificates",
+      "version": "2023.2.64-1.0.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/ca-certificates@2023.2.64-1.0.amzn2023.0.1?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-54",
+      "type": "application",
+      "name": "glib2",
+      "version": "2.74.7-689.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/glib2@2.74.7-689.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-55",
+      "type": "application",
+      "name": "libcurl-minimal",
+      "version": "8.5.0-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/libcurl-minimal@8.5.0-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-56",
+      "type": "application",
+      "name": "curl",
+      "version": "8.5.0-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/curl@8.5.0-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-57",
+      "type": "application",
+      "name": "librepo",
+      "version": "1.14.2-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/librepo@1.14.2-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-58",
+      "type": "application",
+      "name": "rpm-libs",
+      "version": "4.16.1.3-12.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/rpm-libs@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-59",
+      "type": "application",
+      "name": "rpm",
+      "version": "4.16.1.3-12.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/rpm@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-60",
+      "type": "application",
+      "name": "libsolv",
+      "version": "0.7.22-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libsolv@0.7.22-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-61",
+      "type": "application",
+      "name": "libdnf",
+      "version": "0.67.0-1.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/libdnf@0.67.0-1.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-62",
+      "type": "application",
+      "name": "rpm-sign-libs",
+      "version": "4.16.1.3-12.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/rpm-sign-libs@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-63",
+      "type": "application",
+      "name": "python3-setuptools-wheel",
+      "version": "59.6.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/python3-setuptools-wheel@59.6.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-64",
+      "type": "application",
+      "name": "python-setuptools",
+      "version": "59.6.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/python-setuptools@59.6.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-65",
+      "type": "application",
+      "name": "python3-libs",
+      "version": "3.9.16-1.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/python3-libs@3.9.16-1.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-66",
+      "type": "application",
+      "name": "python3.9",
+      "version": "3.9.16-1.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/python3.9@3.9.16-1.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-67",
+      "type": "application",
+      "name": "python3-hawkey",
+      "version": "0.67.0-1.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/python3-hawkey@0.67.0-1.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-68",
+      "type": "application",
+      "name": "python3-rpm",
+      "version": "4.16.1.3-12.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/python3-rpm@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-69",
+      "type": "application",
+      "name": "python3-dnf",
+      "version": "4.12.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/python3-dnf@4.12.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-70",
+      "type": "application",
+      "name": "dnf",
+      "version": "4.12.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/dnf@4.12.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-71",
+      "type": "application",
+      "name": "yum",
+      "version": "4.12.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/yum@4.12.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-72",
+      "type": "application",
+      "name": "libgcc",
+      "version": "11.4.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libgcc@11.4.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-73",
+      "type": "application",
+      "name": "gcc",
+      "version": "11.4.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/gcc@11.4.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-74",
+      "type": "application",
+      "name": "crypto-policies",
+      "version": "20220428-1.gitdfb10ea.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/crypto-policies@20220428-1.gitdfb10ea.amzn2023.0.2?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-75",
+      "type": "application",
+      "name": "amazon-linux-repo-cdn",
+      "version": "2023.3.20240219-0.amzn2023",
+      "purl": "pkg:rpm/amazon/amazon-linux-repo-cdn@2023.3.20240219-0.amzn2023?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-76",
+      "type": "application",
+      "name": "system-release",
+      "version": "2023.3.20240219-0.amzn2023",
+      "purl": "pkg:rpm/amazon/system-release@2023.3.20240219-0.amzn2023?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-77",
+      "type": "application",
+      "name": "filesystem",
+      "version": "3.14-5.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/filesystem@3.14-5.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-78",
+      "type": "application",
+      "name": "bash",
+      "version": "5.2.15-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/bash@5.2.15-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-79",
+      "type": "application",
+      "name": "glibc-minimal-langpack",
+      "version": "2.34-52.amzn2023.0.7",
+      "purl": "pkg:rpm/amazon/glibc-minimal-langpack@2.34-52.amzn2023.0.7?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-80",
+      "type": "application",
+      "name": "zlib",
+      "version": "1.2.11-33.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/zlib@1.2.11-33.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-81",
+      "type": "application",
+      "name": "bzip2-libs",
+      "version": "1.0.8-6.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/bzip2-libs@1.0.8-6.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-82",
+      "type": "application",
+      "name": "bzip2",
+      "version": "1.0.8-6.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/bzip2@1.0.8-6.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-83",
+      "type": "application",
+      "name": "sqlite-libs",
+      "version": "3.40.0-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/sqlite-libs@3.40.0-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-84",
+      "type": "application",
+      "name": "sqlite",
+      "version": "3.40.0-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/sqlite@3.40.0-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-85",
+      "type": "application",
+      "name": "popt",
+      "version": "1.18-6.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/popt@1.18-6.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-86",
+      "type": "application",
+      "name": "libgpg-error",
+      "version": "1.42-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libgpg-error@1.42-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-87",
+      "type": "application",
+      "name": "file-libs",
+      "version": "5.39-7.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/file-libs@5.39-7.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-88",
+      "type": "application",
+      "name": "file",
+      "version": "5.39-7.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/file@5.39-7.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-89",
+      "type": "application",
+      "name": "libuuid",
+      "version": "2.37.4-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libuuid@2.37.4-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-90",
+      "type": "application",
+      "name": "libstdc++",
+      "version": "11.4.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libstdc%2B%2B@11.4.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-91",
+      "type": "application",
+      "name": "gmp",
+      "version": "6.2.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/gmp@6.2.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-92",
+      "type": "application",
+      "name": "libsmartcols",
+      "version": "2.37.4-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libsmartcols@2.37.4-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-93",
+      "type": "application",
+      "name": "libacl",
+      "version": "2.3.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libacl@2.3.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-94",
+      "type": "application",
+      "name": "acl",
+      "version": "2.3.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/acl@2.3.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-95",
+      "type": "application",
+      "name": "mpfr",
+      "version": "4.1.0-7.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/mpfr@4.1.0-7.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-96",
+      "type": "application",
+      "name": "libgomp",
+      "version": "11.4.1-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libgomp@11.4.1-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-97",
+      "type": "application",
+      "name": "audit-libs",
+      "version": "3.0.6-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/audit-libs@3.0.6-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-98",
+      "type": "application",
+      "name": "audit",
+      "version": "3.0.6-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/audit@3.0.6-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-99",
+      "type": "application",
+      "name": "libnghttp2",
+      "version": "1.57.0-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/libnghttp2@1.57.0-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-100",
+      "type": "application",
+      "name": "nghttp2",
+      "version": "1.57.0-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/nghttp2@1.57.0-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-101",
+      "type": "application",
+      "name": "libcom_err",
+      "version": "1.46.5-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libcom_err@1.46.5-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-102",
+      "type": "application",
+      "name": "e2fsprogs",
+      "version": "1.46.5-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/e2fsprogs@1.46.5-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-103",
+      "type": "application",
+      "name": "gnupg2-minimal",
+      "version": "2.3.7-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/gnupg2-minimal@2.3.7-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-104",
+      "type": "application",
+      "name": "gnupg2",
+      "version": "2.3.7-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/gnupg2@2.3.7-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-105",
+      "type": "application",
+      "name": "libxcrypt",
+      "version": "4.4.33-7.amzn2023",
+      "purl": "pkg:rpm/amazon/libxcrypt@4.4.33-7.amzn2023?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-106",
+      "type": "application",
+      "name": "libtasn1",
+      "version": "4.19.0-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/libtasn1@4.19.0-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-107",
+      "type": "application",
+      "name": "libsigsegv",
+      "version": "2.13-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libsigsegv@2.13-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-108",
+      "type": "application",
+      "name": "lz4-libs",
+      "version": "1.9.4-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/lz4-libs@1.9.4-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-109",
+      "type": "application",
+      "name": "lz4",
+      "version": "1.9.4-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/lz4@1.9.4-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-110",
+      "type": "application",
+      "name": "gdbm-libs",
+      "version": "1.19-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/gdbm-libs@1.19-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-111",
+      "type": "application",
+      "name": "gdbm",
+      "version": "1.19-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/gdbm@1.19-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-112",
+      "type": "application",
+      "name": "libunistring",
+      "version": "0.9.10-10.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libunistring@0.9.10-10.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-113",
+      "type": "application",
+      "name": "keyutils-libs",
+      "version": "1.6.3-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/keyutils-libs@1.6.3-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-114",
+      "type": "application",
+      "name": "keyutils",
+      "version": "1.6.3-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/keyutils@1.6.3-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-115",
+      "type": "application",
+      "name": "elfutils-libs",
+      "version": "0.188-3.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/elfutils-libs@0.188-3.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-116",
+      "type": "application",
+      "name": "dnf-data",
+      "version": "4.12.0-2.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/dnf-data@4.12.0-2.amzn2023.0.4?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-117",
+      "type": "application",
+      "name": "pcre2",
+      "version": "10.40-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/pcre2@10.40-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-118",
+      "type": "application",
+      "name": "coreutils-single",
+      "version": "8.32-30.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/coreutils-single@8.32-30.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-119",
+      "type": "application",
+      "name": "coreutils",
+      "version": "8.32-30.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/coreutils@8.32-30.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-120",
+      "type": "application",
+      "name": "libblkid",
+      "version": "2.37.4-1.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libblkid@2.37.4-1.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-121",
+      "type": "application",
+      "name": "grep",
+      "version": "3.8-1.amzn2023.0.4",
+      "purl": "pkg:rpm/amazon/grep@3.8-1.amzn2023.0.4?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-122",
+      "type": "application",
+      "name": "openssl-libs",
+      "version": "3.0.8-1.amzn2023.0.11",
+      "purl": "pkg:rpm/amazon/openssl-libs@3.0.8-1.amzn2023.0.11?arch=x86_64&distro=2023&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-123",
+      "type": "application",
+      "name": "openssl",
+      "version": "3.0.8-1.amzn2023.0.11",
+      "purl": "pkg:rpm/amazon/openssl@3.0.8-1.amzn2023.0.11?arch=x86_64&distro=2023&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-124",
+      "type": "application",
+      "name": "krb5-libs",
+      "version": "1.21-3.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/krb5-libs@1.21-3.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-125",
+      "type": "application",
+      "name": "krb5",
+      "version": "1.21-3.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/krb5@1.21-3.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-126",
+      "type": "application",
+      "name": "curl-minimal",
+      "version": "8.5.0-1.amzn2023.0.1",
+      "purl": "pkg:rpm/amazon/curl-minimal@8.5.0-1.amzn2023.0.1?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-127",
+      "type": "application",
+      "name": "libarchive",
+      "version": "3.5.3-2.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/libarchive@3.5.3-2.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-128",
+      "type": "application",
+      "name": "libmodulemd",
+      "version": "2.13.0-2.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/libmodulemd@2.13.0-2.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-129",
+      "type": "application",
+      "name": "rpm-build-libs",
+      "version": "4.16.1.3-12.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/rpm-build-libs@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-130",
+      "type": "application",
+      "name": "python3-pip-wheel",
+      "version": "21.3.1-2.amzn2023.0.7",
+      "purl": "pkg:rpm/amazon/python3-pip-wheel@21.3.1-2.amzn2023.0.7?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-131",
+      "type": "application",
+      "name": "python-pip",
+      "version": "21.3.1-2.amzn2023.0.7",
+      "purl": "pkg:rpm/amazon/python-pip@21.3.1-2.amzn2023.0.7?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-132",
+      "type": "application",
+      "name": "python3",
+      "version": "3.9.16-1.amzn2023.0.6",
+      "purl": "pkg:rpm/amazon/python3@3.9.16-1.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-133",
+      "type": "application",
+      "name": "python3-libdnf",
+      "version": "0.67.0-1.amzn2023.0.5",
+      "purl": "pkg:rpm/amazon/python3-libdnf@0.67.0-1.amzn2023.0.5?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-134",
+      "type": "application",
+      "name": "python3-libcomps",
+      "version": "0.1.18-1.amzn2023.0.2",
+      "purl": "pkg:rpm/amazon/python3-libcomps@0.1.18-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-135",
+      "type": "application",
+      "name": "python3-gpg",
+      "version": "1.15.1-6.amzn2023.0.3",
+      "purl": "pkg:rpm/amazon/python3-gpg@1.15.1-6.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-136",
+      "type": "application",
+      "name": "gpg-pubkey",
+      "version": "d832c631-6515c85e",
+      "purl": "pkg:rpm/amazon/gpg-pubkey@d832c631-6515c85e?arch=noarch&distro=2023&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "rhel-rpm"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/rpm/rpmdb.sqlite"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-137",
+      "type": "library",
+      "name": "rpm",
+      "version": "4.16.1.3",
+      "purl": "pkg:pypi/rpm@4.16.1.3",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib64/python3.9/site-packages/rpm-4.16.1.3-py3.9.egg-info"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:is_duplicate_package",
+          "value": "true"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:duplicate_purl",
+          "value": "pkg:rpm/amazon/python3-rpm@4.16.1.3-12.amzn2023.0.6?arch=x86_64&distro=2023&epoch=0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-138",
+      "type": "library",
+      "name": "libcomps",
+      "version": "0.1.18",
+      "purl": "pkg:pypi/libcomps@0.1.18",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib64/python3.9/site-packages/libcomps-0.1.18-py3.9.egg-info/PKG-INFO"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:is_duplicate_package",
+          "value": "true"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:duplicate_purl",
+          "value": "pkg:rpm/amazon/python3-libcomps@0.1.18-1.amzn2023.0.2?arch=x86_64&distro=2023&epoch=0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-139",
+      "type": "library",
+      "name": "gpg",
+      "version": "1.15.1",
+      "purl": "pkg:pypi/gpg@1.15.1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib64/python3.9/site-packages/gpg-1.15.1-py3.9.egg-info"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:is_duplicate_package",
+          "value": "true"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:duplicate_purl",
+          "value": "pkg:rpm/amazon/python3-gpg@1.15.1-6.amzn2023.0.3?arch=x86_64&distro=2023&epoch=0"
+        }
+      ]
+    }
+  ]
+}
