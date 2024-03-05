@@ -1,0 +1,4056 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:144ba0d4-ecc8-49a4-b4ff-a6a0cf057333",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-05T14:56:52Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Amazon Web Services, Inc. (AWS)",
+          "name": "inspector-sbomgen",
+          "version": "1.1.0",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "3b79593222fde0997f835de9a31b6c4f8eecba2126dee17d7c6a2455f0d2c140"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "comp-1",
+      "type": "container",
+      "name": "python:latest",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:image_id",
+          "value": "sha256:a3aef63c6c1029222ff635a72a0fcaddba1fd7a26abdf2491ace8eb3c654471e"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:1a5fc1184c481caeb279bce728e080daba423b5215282318ba86e9b8c388a2b4"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:f3f47b3309ca3efcca62cc16aee76177047f0535d9ea6a03546be0b8bee30ded"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:909275a3eaaa473a212a77d34de795cea1396d9106e9bae20d4fe9b2e052b01f"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:9fe4e8a1862c0b5b34840dda2f7b9e6cb10723f51dac0b0cad1f1ef44bf2b4a1"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:84f540ade319d615716330fdd47fdf1485e0beaead0bdd92e2dba62496998ce9"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:a07a24a374709a46e9cefffb163b18f30a20f8f9c4f588459c02dae6e4ce68b9"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:349b0b22a49383d9ace128faf09bb2b991d46e6f42d1565cbc50bc7c80613734"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:3dd1a7b3caf31456d7e86e558bf24b8e672816196313c31bb4da2f38f99fbc40"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "comp-2",
+      "type": "operating-system",
+      "name": "Debian GNU/Linux",
+      "version": "12"
+    },
+    {
+      "bom-ref": "comp-3",
+      "type": "library",
+      "name": "setuptools",
+      "version": "69.1.0",
+      "purl": "pkg:pypi/setuptools@69.1.0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/local/lib/python3.12/site-packages/setuptools-69.1.0.dist-info/METADATA"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-4",
+      "type": "library",
+      "name": "mercurial",
+      "version": "6.3.2",
+      "purl": "pkg:pypi/mercurial@6.3.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python3/dist-packages/mercurial-6.3.2-py3.11.egg-info"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-5",
+      "type": "library",
+      "name": "pip",
+      "version": "24.0",
+      "purl": "pkg:pypi/pip@24.0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/local/lib/python3.12/site-packages/pip-24.0.dist-info/METADATA"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-6",
+      "type": "library",
+      "name": "wheel",
+      "version": "0.42.0",
+      "purl": "pkg:pypi/wheel@0.42.0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "python-pkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/local/lib/python3.12/site-packages/wheel-0.42.0.dist-info/METADATA"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-7",
+      "type": "application",
+      "name": "tzdata",
+      "version": "2024a-0+deb12u1",
+      "purl": "pkg:deb/debian/tzdata@2024a-0%2Bdeb12u1?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-8",
+      "type": "application",
+      "name": "base-passwd",
+      "version": "3.6.1",
+      "purl": "pkg:deb/debian/base-passwd@3.6.1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-9",
+      "type": "application",
+      "name": "nghttp2",
+      "version": "1.52.0-1+deb12u1",
+      "purl": "pkg:deb/debian/nghttp2@1.52.0-1%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-11",
+          "type": "application",
+          "name": "libnghttp2-14",
+          "version": "1.52.0-1+deb12u1",
+          "purl": "pkg:deb/debian/libnghttp2-14@1.52.0-1%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-12",
+      "type": "application",
+      "name": "npth",
+      "version": "1.6-3",
+      "purl": "pkg:deb/debian/npth@1.6-3?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-14",
+          "type": "application",
+          "name": "libnpth0",
+          "version": "1.6-3",
+          "purl": "pkg:deb/debian/libnpth0@1.6-3?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-15",
+      "type": "application",
+      "name": "p11-kit",
+      "version": "0.24.1-2",
+      "purl": "pkg:deb/debian/p11-kit@0.24.1-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-17",
+          "type": "application",
+          "name": "libp11-kit0",
+          "version": "0.24.1-2",
+          "purl": "pkg:deb/debian/libp11-kit0@0.24.1-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-18",
+      "type": "application",
+      "name": "libselinux",
+      "version": "3.4-1",
+      "purl": "pkg:deb/debian/libselinux@3.4-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-20",
+          "type": "application",
+          "name": "libselinux1",
+          "version": "3.4-1",
+          "purl": "pkg:deb/debian/libselinux1@3.4-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-21",
+      "type": "application",
+      "name": "netbase",
+      "version": "6.4",
+      "purl": "pkg:deb/debian/netbase@6.4?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-22",
+      "type": "application",
+      "name": "gcc-12",
+      "version": "12.2.0-14",
+      "purl": "pkg:deb/debian/gcc-12@12.2.0-14?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-24",
+          "type": "application",
+          "name": "gcc-12-base",
+          "version": "12.2.0-14",
+          "purl": "pkg:deb/debian/gcc-12-base@12.2.0-14?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-26",
+          "type": "application",
+          "name": "libgcc-s1",
+          "version": "12.2.0-14",
+          "purl": "pkg:deb/debian/libgcc-s1@12.2.0-14?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-28",
+          "type": "application",
+          "name": "libstdc++6",
+          "version": "12.2.0-14",
+          "purl": "pkg:deb/debian/libstdc%2B%2B6@12.2.0-14?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-29",
+      "type": "application",
+      "name": "libgpg-error",
+      "version": "1.46-1",
+      "purl": "pkg:deb/debian/libgpg-error@1.46-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-31",
+          "type": "application",
+          "name": "libgpg-error0",
+          "version": "1.46-1",
+          "purl": "pkg:deb/debian/libgpg-error0@1.46-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-32",
+      "type": "application",
+      "name": "libsemanage",
+      "version": "3.4-1",
+      "purl": "pkg:deb/debian/libsemanage@3.4-1?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-34",
+          "type": "application",
+          "name": "libsemanage-common",
+          "version": "3.4-1",
+          "purl": "pkg:deb/debian/libsemanage-common@3.4-1?arch=all&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-36",
+          "type": "application",
+          "name": "libsemanage2",
+          "version": "3.4-1",
+          "purl": "pkg:deb/debian/libsemanage2@3.4-1?arch=all&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-37",
+      "type": "application",
+      "name": "sqlite3",
+      "version": "3.40.1-2",
+      "purl": "pkg:deb/debian/sqlite3@3.40.1-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-39",
+          "type": "application",
+          "name": "libsqlite3-0",
+          "version": "3.40.1-2",
+          "purl": "pkg:deb/debian/libsqlite3-0@3.40.1-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-40",
+      "type": "application",
+      "name": "rust-sequoia-sq",
+      "version": "0.27.0-2",
+      "purl": "pkg:deb/debian/rust-sequoia-sq@0.27.0-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-42",
+          "type": "application",
+          "name": "sq",
+          "version": "0.27.0-2",
+          "purl": "pkg:deb/debian/sq@0.27.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-43",
+      "type": "application",
+      "name": "usrmerge",
+      "version": "37~deb12u1",
+      "purl": "pkg:deb/debian/usrmerge@37~deb12u1?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-45",
+          "type": "application",
+          "name": "usr-is-merged",
+          "version": "37~deb12u1",
+          "purl": "pkg:deb/debian/usr-is-merged@37~deb12u1?arch=all&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-46",
+      "type": "application",
+      "name": "wget",
+      "version": "1.21.3-1",
+      "purl": "pkg:deb/debian/wget@1.21.3-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-47",
+      "type": "application",
+      "name": "zlib",
+      "version": "1.2.13.dfsg-1",
+      "purl": "pkg:deb/debian/zlib@1.2.13.dfsg-1?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-49",
+          "type": "application",
+          "name": "zlib1g",
+          "version": "1.2.13.dfsg-1",
+          "purl": "pkg:deb/debian/zlib1g@1.2.13.dfsg-1?arch=amd64&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-50",
+      "type": "application",
+      "name": "diffutils",
+      "version": "3.8-4",
+      "purl": "pkg:deb/debian/diffutils@3.8-4?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-51",
+      "type": "application",
+      "name": "e2fsprogs",
+      "version": "1.47.0-2",
+      "purl": "pkg:deb/debian/e2fsprogs@1.47.0-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-53",
+          "type": "application",
+          "name": "libcom-err2",
+          "version": "1.47.0-2",
+          "purl": "pkg:deb/debian/libcom-err2@1.47.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-55",
+          "type": "application",
+          "name": "libext2fs2",
+          "version": "1.47.0-2",
+          "purl": "pkg:deb/debian/libext2fs2@1.47.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-57",
+          "type": "application",
+          "name": "libss2",
+          "version": "1.47.0-2",
+          "purl": "pkg:deb/debian/libss2@1.47.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-59",
+          "type": "application",
+          "name": "logsave",
+          "version": "1.47.0-2",
+          "purl": "pkg:deb/debian/logsave@1.47.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-60",
+      "type": "application",
+      "name": "grep",
+      "version": "3.8-5",
+      "purl": "pkg:deb/debian/grep@3.8-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-61",
+      "type": "application",
+      "name": "brotli",
+      "version": "1.0.9-2",
+      "purl": "pkg:deb/debian/brotli@1.0.9-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-63",
+          "type": "application",
+          "name": "libbrotli1",
+          "version": "1.0.9-2",
+          "purl": "pkg:deb/debian/libbrotli1@1.0.9-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-64",
+      "type": "application",
+      "name": "gmp",
+      "version": "6.2.1+dfsg1-1.1",
+      "purl": "pkg:deb/debian/gmp@6.2.1%2Bdfsg1-1.1?arch=amd64&distro=bookworm&epoch=2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-66",
+          "type": "application",
+          "name": "libgmp10",
+          "version": "6.2.1+dfsg1-1.1",
+          "purl": "pkg:deb/debian/libgmp10@6.2.1%2Bdfsg1-1.1?arch=amd64&distro=bookworm&epoch=2",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-67",
+      "type": "application",
+      "name": "readline",
+      "version": "8.2-1.3",
+      "purl": "pkg:deb/debian/readline@8.2-1.3?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-69",
+          "type": "application",
+          "name": "libreadline8",
+          "version": "8.2-1.3",
+          "purl": "pkg:deb/debian/libreadline8@8.2-1.3?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-71",
+          "type": "application",
+          "name": "readline-common",
+          "version": "8.2-1.3",
+          "purl": "pkg:deb/debian/readline-common@8.2-1.3?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-72",
+      "type": "application",
+      "name": "gzip",
+      "version": "1.12-1",
+      "purl": "pkg:deb/debian/gzip@1.12-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-73",
+      "type": "application",
+      "name": "bzip2",
+      "version": "1.0.8-5",
+      "purl": "pkg:deb/debian/bzip2@1.0.8-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-75",
+          "type": "application",
+          "name": "libbz2-1.0",
+          "version": "1.0.8-5",
+          "purl": "pkg:deb/debian/libbz2-1.0@1.0.8-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-76",
+      "type": "application",
+      "name": "krb5",
+      "version": "1.20.1-2+deb12u1",
+      "purl": "pkg:deb/debian/krb5@1.20.1-2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-78",
+          "type": "application",
+          "name": "libgssapi-krb5-2",
+          "version": "1.20.1-2+deb12u1",
+          "purl": "pkg:deb/debian/libgssapi-krb5-2@1.20.1-2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-80",
+          "type": "application",
+          "name": "libk5crypto3",
+          "version": "1.20.1-2+deb12u1",
+          "purl": "pkg:deb/debian/libk5crypto3@1.20.1-2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-82",
+          "type": "application",
+          "name": "libkrb5-3",
+          "version": "1.20.1-2+deb12u1",
+          "purl": "pkg:deb/debian/libkrb5-3@1.20.1-2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-84",
+          "type": "application",
+          "name": "libkrb5support0",
+          "version": "1.20.1-2+deb12u1",
+          "purl": "pkg:deb/debian/libkrb5support0@1.20.1-2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-85",
+      "type": "application",
+      "name": "pinentry",
+      "version": "1.2.1-1",
+      "purl": "pkg:deb/debian/pinentry@1.2.1-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-87",
+          "type": "application",
+          "name": "pinentry-curses",
+          "version": "1.2.1-1",
+          "purl": "pkg:deb/debian/pinentry-curses@1.2.1-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-88",
+      "type": "application",
+      "name": "sysvinit",
+      "version": "3.06-4",
+      "purl": "pkg:deb/debian/sysvinit@3.06-4?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-90",
+          "type": "application",
+          "name": "sysvinit-utils",
+          "version": "3.06-4",
+          "purl": "pkg:deb/debian/sysvinit-utils@3.06-4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-91",
+      "type": "application",
+      "name": "dpkg",
+      "version": "1.21.22",
+      "purl": "pkg:deb/debian/dpkg@1.21.22?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-92",
+      "type": "application",
+      "name": "pam",
+      "version": "1.5.2-6+deb12u1",
+      "purl": "pkg:deb/debian/pam@1.5.2-6%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-94",
+          "type": "application",
+          "name": "libpam-modules",
+          "version": "1.5.2-6+deb12u1",
+          "purl": "pkg:deb/debian/libpam-modules@1.5.2-6%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-96",
+          "type": "application",
+          "name": "libpam-modules-bin",
+          "version": "1.5.2-6+deb12u1",
+          "purl": "pkg:deb/debian/libpam-modules-bin@1.5.2-6%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-98",
+          "type": "application",
+          "name": "libpam-runtime",
+          "version": "1.5.2-6+deb12u1",
+          "purl": "pkg:deb/debian/libpam-runtime@1.5.2-6%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-100",
+          "type": "application",
+          "name": "libpam0g",
+          "version": "1.5.2-6+deb12u1",
+          "purl": "pkg:deb/debian/libpam0g@1.5.2-6%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-101",
+      "type": "application",
+      "name": "openssl",
+      "version": "3.0.11-1~deb12u2",
+      "purl": "pkg:deb/debian/openssl@3.0.11-1~deb12u2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-103",
+          "type": "application",
+          "name": "libssl3",
+          "version": "3.0.11-1~deb12u2",
+          "purl": "pkg:deb/debian/libssl3@3.0.11-1~deb12u2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-104",
+      "type": "application",
+      "name": "mawk",
+      "version": "1.3.4.20200120-3.1",
+      "purl": "pkg:deb/debian/mawk@1.3.4.20200120-3.1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-105",
+      "type": "application",
+      "name": "base-files",
+      "version": "12.4+deb12u5",
+      "purl": "pkg:deb/debian/base-files@12.4%2Bdeb12u5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-106",
+      "type": "application",
+      "name": "findutils",
+      "version": "4.9.0-4",
+      "purl": "pkg:deb/debian/findutils@4.9.0-4?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-107",
+      "type": "application",
+      "name": "tar",
+      "version": "1.34+dfsg-1.2+deb12u1",
+      "purl": "pkg:deb/debian/tar@1.34%2Bdfsg-1.2%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-108",
+      "type": "application",
+      "name": "keyutils",
+      "version": "1.6.3-2",
+      "purl": "pkg:deb/debian/keyutils@1.6.3-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-110",
+          "type": "application",
+          "name": "libkeyutils1",
+          "version": "1.6.3-2",
+          "purl": "pkg:deb/debian/libkeyutils1@1.6.3-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-111",
+      "type": "application",
+      "name": "libmd",
+      "version": "1.0.4-2",
+      "purl": "pkg:deb/debian/libmd@1.0.4-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-113",
+          "type": "application",
+          "name": "libmd0",
+          "version": "1.0.4-2",
+          "purl": "pkg:deb/debian/libmd0@1.0.4-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-114",
+      "type": "application",
+      "name": "adduser",
+      "version": "3.134",
+      "purl": "pkg:deb/debian/adduser@3.134?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-115",
+      "type": "application",
+      "name": "util-linux",
+      "version": "2.38.1-5",
+      "purl": "pkg:deb/debian/util-linux@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-117",
+          "type": "application",
+          "name": "bsdutils",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/bsdutils@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-119",
+          "type": "application",
+          "name": "libblkid1",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/libblkid1@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-121",
+          "type": "application",
+          "name": "libmount1",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/libmount1@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-123",
+          "type": "application",
+          "name": "libsmartcols1",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/libsmartcols1@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-125",
+          "type": "application",
+          "name": "libuuid1",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/libuuid1@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-127",
+          "type": "application",
+          "name": "mount",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/mount@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-129",
+          "type": "application",
+          "name": "util-linux-extra",
+          "version": "2.38.1-5",
+          "purl": "pkg:deb/debian/util-linux-extra@2.38.1-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-130",
+      "type": "application",
+      "name": "curl",
+      "version": "7.88.1-10+deb12u5",
+      "purl": "pkg:deb/debian/curl@7.88.1-10%2Bdeb12u5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-132",
+          "type": "application",
+          "name": "libcurl4",
+          "version": "7.88.1-10+deb12u5",
+          "purl": "pkg:deb/debian/libcurl4@7.88.1-10%2Bdeb12u5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-133",
+      "type": "application",
+      "name": "libcap-ng",
+      "version": "0.8.3-1",
+      "purl": "pkg:deb/debian/libcap-ng@0.8.3-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-135",
+          "type": "application",
+          "name": "libcap-ng0",
+          "version": "0.8.3-1",
+          "purl": "pkg:deb/debian/libcap-ng0@0.8.3-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-136",
+      "type": "application",
+      "name": "libxcrypt",
+      "version": "4.4.33-2",
+      "purl": "pkg:deb/debian/libxcrypt@4.4.33-2?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-138",
+          "type": "application",
+          "name": "libcrypt1",
+          "version": "4.4.33-2",
+          "purl": "pkg:deb/debian/libcrypt1@4.4.33-2?arch=amd64&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-139",
+      "type": "application",
+      "name": "libidn2",
+      "version": "2.3.3-1",
+      "purl": "pkg:deb/debian/libidn2@2.3.3-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-141",
+          "type": "application",
+          "name": "libidn2-0",
+          "version": "2.3.3-1",
+          "purl": "pkg:deb/debian/libidn2-0@2.3.3-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-142",
+      "type": "application",
+      "name": "libssh2",
+      "version": "1.10.0-3",
+      "purl": "pkg:deb/debian/libssh2@1.10.0-3?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-144",
+          "type": "application",
+          "name": "libssh2-1",
+          "version": "1.10.0-3",
+          "purl": "pkg:deb/debian/libssh2-1@1.10.0-3?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-145",
+      "type": "application",
+      "name": "debconf",
+      "version": "1.5.82",
+      "purl": "pkg:deb/debian/debconf@1.5.82?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-146",
+      "type": "application",
+      "name": "libcap2",
+      "version": "2.66-4",
+      "purl": "pkg:deb/debian/libcap2@2.66-4?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-147",
+      "type": "application",
+      "name": "shadow",
+      "version": "4.13+dfsg1-1",
+      "purl": "pkg:deb/debian/shadow@4.13%2Bdfsg1-1?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-149",
+          "type": "application",
+          "name": "login",
+          "version": "4.13+dfsg1-1",
+          "purl": "pkg:deb/debian/login@4.13%2Bdfsg1-1?arch=amd64&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-151",
+          "type": "application",
+          "name": "passwd",
+          "version": "4.13+dfsg1-1",
+          "purl": "pkg:deb/debian/passwd@4.13%2Bdfsg1-1?arch=amd64&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-152",
+      "type": "application",
+      "name": "ca-certificates",
+      "version": "20230311",
+      "purl": "pkg:deb/debian/ca-certificates@20230311?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-153",
+      "type": "application",
+      "name": "libgcrypt20",
+      "version": "1.10.1-3",
+      "purl": "pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-154",
+      "type": "application",
+      "name": "nettle",
+      "version": "3.8.1-2",
+      "purl": "pkg:deb/debian/nettle@3.8.1-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-156",
+          "type": "application",
+          "name": "libhogweed6",
+          "version": "3.8.1-2",
+          "purl": "pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-158",
+          "type": "application",
+          "name": "libnettle8",
+          "version": "3.8.1-2",
+          "purl": "pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-159",
+      "type": "application",
+      "name": "pcre2",
+      "version": "10.42-1",
+      "purl": "pkg:deb/debian/pcre2@10.42-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-161",
+          "type": "application",
+          "name": "libpcre2-8-0",
+          "version": "10.42-1",
+          "purl": "pkg:deb/debian/libpcre2-8-0@10.42-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-162",
+      "type": "application",
+      "name": "dash",
+      "version": "0.5.12-2",
+      "purl": "pkg:deb/debian/dash@0.5.12-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-163",
+      "type": "application",
+      "name": "gnutls28",
+      "version": "3.7.9-2+deb12u2",
+      "purl": "pkg:deb/debian/gnutls28@3.7.9-2%2Bdeb12u2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-165",
+          "type": "application",
+          "name": "libgnutls30",
+          "version": "3.7.9-2+deb12u2",
+          "purl": "pkg:deb/debian/libgnutls30@3.7.9-2%2Bdeb12u2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-166",
+      "type": "application",
+      "name": "xz-utils",
+      "version": "5.4.1-0.2",
+      "purl": "pkg:deb/debian/xz-utils@5.4.1-0.2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-168",
+          "type": "application",
+          "name": "liblzma5",
+          "version": "5.4.1-0.2",
+          "purl": "pkg:deb/debian/liblzma5@5.4.1-0.2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-169",
+      "type": "application",
+      "name": "apt",
+      "version": "2.6.1",
+      "purl": "pkg:deb/debian/apt@2.6.1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-171",
+          "type": "application",
+          "name": "libapt-pkg6.0",
+          "version": "2.6.1",
+          "purl": "pkg:deb/debian/libapt-pkg6.0@2.6.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-172",
+      "type": "application",
+      "name": "gnupg2",
+      "version": "2.2.40-1.1",
+      "purl": "pkg:deb/debian/gnupg2@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-174",
+          "type": "application",
+          "name": "dirmngr",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/dirmngr@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-176",
+          "type": "application",
+          "name": "gnupg",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gnupg@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-178",
+          "type": "application",
+          "name": "gnupg-l10n",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gnupg-l10n@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-180",
+          "type": "application",
+          "name": "gnupg-utils",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gnupg-utils@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-182",
+          "type": "application",
+          "name": "gpg",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpg@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-184",
+          "type": "application",
+          "name": "gpg-agent",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpg-agent@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-186",
+          "type": "application",
+          "name": "gpg-wks-client",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpg-wks-client@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-188",
+          "type": "application",
+          "name": "gpg-wks-server",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpg-wks-server@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-190",
+          "type": "application",
+          "name": "gpgconf",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpgconf@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-192",
+          "type": "application",
+          "name": "gpgsm",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpgsm@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-194",
+          "type": "application",
+          "name": "gpgv",
+          "version": "2.2.40-1.1",
+          "purl": "pkg:deb/debian/gpgv@2.2.40-1.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-195",
+      "type": "application",
+      "name": "db5.3",
+      "version": "5.3.28+dfsg2-1",
+      "purl": "pkg:deb/debian/db5.3@5.3.28%2Bdfsg2-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-197",
+          "type": "application",
+          "name": "libdb5.3",
+          "version": "5.3.28+dfsg2-1",
+          "purl": "pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg2-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-198",
+      "type": "application",
+      "name": "rtmpdump",
+      "version": "2.4+20151223.gitfa8646d.1-2",
+      "purl": "pkg:deb/debian/rtmpdump@2.4%2B20151223.gitfa8646d.1-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-200",
+          "type": "application",
+          "name": "librtmp1",
+          "version": "2.4+20151223.gitfa8646d.1-2",
+          "purl": "pkg:deb/debian/librtmp1@2.4%2B20151223.gitfa8646d.1-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-201",
+      "type": "application",
+      "name": "libtasn1-6",
+      "version": "4.19.0-2",
+      "purl": "pkg:deb/debian/libtasn1-6@4.19.0-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-202",
+      "type": "application",
+      "name": "attr",
+      "version": "2.5.1-4",
+      "purl": "pkg:deb/debian/attr@2.5.1-4?arch=amd64&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-204",
+          "type": "application",
+          "name": "libattr1",
+          "version": "2.5.1-4",
+          "purl": "pkg:deb/debian/libattr1@2.5.1-4?arch=amd64&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-205",
+      "type": "application",
+      "name": "openldap",
+      "version": "2.5.13+dfsg-5",
+      "purl": "pkg:deb/debian/openldap@2.5.13%2Bdfsg-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-207",
+          "type": "application",
+          "name": "libldap-2.5-0",
+          "version": "2.5.13+dfsg-5",
+          "purl": "pkg:deb/debian/libldap-2.5-0@2.5.13%2Bdfsg-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-208",
+      "type": "application",
+      "name": "libseccomp",
+      "version": "2.5.4-1",
+      "purl": "pkg:deb/debian/libseccomp@2.5.4-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-210",
+          "type": "application",
+          "name": "libseccomp2",
+          "version": "2.5.4-1",
+          "purl": "pkg:deb/debian/libseccomp2@2.5.4-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-211",
+      "type": "application",
+      "name": "libsepol",
+      "version": "3.4-2.1",
+      "purl": "pkg:deb/debian/libsepol@3.4-2.1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-213",
+          "type": "application",
+          "name": "libsepol2",
+          "version": "3.4-2.1",
+          "purl": "pkg:deb/debian/libsepol2@3.4-2.1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-214",
+      "type": "application",
+      "name": "libunistring",
+      "version": "1.0-2",
+      "purl": "pkg:deb/debian/libunistring@1.0-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-216",
+          "type": "application",
+          "name": "libunistring2",
+          "version": "1.0-2",
+          "purl": "pkg:deb/debian/libunistring2@1.0-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-217",
+      "type": "application",
+      "name": "libzstd",
+      "version": "1.5.4+dfsg2-5",
+      "purl": "pkg:deb/debian/libzstd@1.5.4%2Bdfsg2-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-219",
+          "type": "application",
+          "name": "libzstd1",
+          "version": "1.5.4+dfsg2-5",
+          "purl": "pkg:deb/debian/libzstd1@1.5.4%2Bdfsg2-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-220",
+      "type": "application",
+      "name": "libffi",
+      "version": "3.4.4-1",
+      "purl": "pkg:deb/debian/libffi@3.4.4-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-222",
+          "type": "application",
+          "name": "libffi8",
+          "version": "3.4.4-1",
+          "purl": "pkg:deb/debian/libffi8@3.4.4-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-223",
+      "type": "application",
+      "name": "ncurses",
+      "version": "6.4-4",
+      "purl": "pkg:deb/debian/ncurses@6.4-4?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-225",
+          "type": "application",
+          "name": "libncursesw6",
+          "version": "6.4-4",
+          "purl": "pkg:deb/debian/libncursesw6@6.4-4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-227",
+          "type": "application",
+          "name": "libtinfo6",
+          "version": "6.4-4",
+          "purl": "pkg:deb/debian/libtinfo6@6.4-4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-229",
+          "type": "application",
+          "name": "ncurses-base",
+          "version": "6.4-4",
+          "purl": "pkg:deb/debian/ncurses-base@6.4-4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-231",
+          "type": "application",
+          "name": "ncurses-bin",
+          "version": "6.4-4",
+          "purl": "pkg:deb/debian/ncurses-bin@6.4-4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-232",
+      "type": "application",
+      "name": "cyrus-sasl2",
+      "version": "2.1.28+dfsg-10",
+      "purl": "pkg:deb/debian/cyrus-sasl2@2.1.28%2Bdfsg-10?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-234",
+          "type": "application",
+          "name": "libsasl2-2",
+          "version": "2.1.28+dfsg-10",
+          "purl": "pkg:deb/debian/libsasl2-2@2.1.28%2Bdfsg-10?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-236",
+          "type": "application",
+          "name": "libsasl2-modules-db",
+          "version": "2.1.28+dfsg-10",
+          "purl": "pkg:deb/debian/libsasl2-modules-db@2.1.28%2Bdfsg-10?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-237",
+      "type": "application",
+      "name": "systemd",
+      "version": "252.22-1~deb12u1",
+      "purl": "pkg:deb/debian/systemd@252.22-1~deb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-239",
+          "type": "application",
+          "name": "libsystemd0",
+          "version": "252.22-1~deb12u1",
+          "purl": "pkg:deb/debian/libsystemd0@252.22-1~deb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-241",
+          "type": "application",
+          "name": "libudev1",
+          "version": "252.22-1~deb12u1",
+          "purl": "pkg:deb/debian/libudev1@252.22-1~deb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-242",
+      "type": "application",
+      "name": "sed",
+      "version": "4.9-1",
+      "purl": "pkg:deb/debian/sed@4.9-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-243",
+      "type": "application",
+      "name": "lz4",
+      "version": "1.9.4-1",
+      "purl": "pkg:deb/debian/lz4@1.9.4-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-245",
+          "type": "application",
+          "name": "liblz4-1",
+          "version": "1.9.4-1",
+          "purl": "pkg:deb/debian/liblz4-1@1.9.4-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-246",
+      "type": "application",
+      "name": "debian-archive-keyring",
+      "version": "2023.3+deb12u1",
+      "purl": "pkg:deb/debian/debian-archive-keyring@2023.3%2Bdeb12u1?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-247",
+      "type": "application",
+      "name": "acl",
+      "version": "2.3.1-3",
+      "purl": "pkg:deb/debian/acl@2.3.1-3?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-249",
+          "type": "application",
+          "name": "libacl1",
+          "version": "2.3.1-3",
+          "purl": "pkg:deb/debian/libacl1@2.3.1-3?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-250",
+      "type": "application",
+      "name": "libassuan",
+      "version": "2.5.5-5",
+      "purl": "pkg:deb/debian/libassuan@2.5.5-5?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-252",
+          "type": "application",
+          "name": "libassuan0",
+          "version": "2.5.5-5",
+          "purl": "pkg:deb/debian/libassuan0@2.5.5-5?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-253",
+      "type": "application",
+      "name": "audit",
+      "version": "3.0.9-1",
+      "purl": "pkg:deb/debian/audit@3.0.9-1?arch=all&distro=bookworm&epoch=1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-255",
+          "type": "application",
+          "name": "libaudit-common",
+          "version": "3.0.9-1",
+          "purl": "pkg:deb/debian/libaudit-common@3.0.9-1?arch=all&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-257",
+          "type": "application",
+          "name": "libaudit1",
+          "version": "3.0.9-1",
+          "purl": "pkg:deb/debian/libaudit1@3.0.9-1?arch=all&distro=bookworm&epoch=1",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-258",
+      "type": "application",
+      "name": "glibc",
+      "version": "2.36-9+deb12u4",
+      "purl": "pkg:deb/debian/glibc@2.36-9%2Bdeb12u4?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-260",
+          "type": "application",
+          "name": "libc-bin",
+          "version": "2.36-9+deb12u4",
+          "purl": "pkg:deb/debian/libc-bin@2.36-9%2Bdeb12u4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        },
+        {
+          "bom-ref": "comp-262",
+          "type": "application",
+          "name": "libc6",
+          "version": "2.36-9+deb12u4",
+          "purl": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u4?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-263",
+      "type": "application",
+      "name": "libksba",
+      "version": "1.6.3-2",
+      "purl": "pkg:deb/debian/libksba@1.6.3-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-265",
+          "type": "application",
+          "name": "libksba8",
+          "version": "1.6.3-2",
+          "purl": "pkg:deb/debian/libksba8@1.6.3-2?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-266",
+      "type": "application",
+      "name": "debianutils",
+      "version": "5.7-0.5~deb12u1",
+      "purl": "pkg:deb/debian/debianutils@5.7-0.5~deb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-267",
+      "type": "application",
+      "name": "cdebconf",
+      "version": "0.270",
+      "purl": "pkg:deb/debian/cdebconf@0.270?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-269",
+          "type": "application",
+          "name": "libdebconfclient0",
+          "version": "0.270",
+          "purl": "pkg:deb/debian/libdebconfclient0@0.270?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-270",
+      "type": "application",
+      "name": "perl",
+      "version": "5.36.0-7+deb12u1",
+      "purl": "pkg:deb/debian/perl@5.36.0-7%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-272",
+          "type": "application",
+          "name": "perl-base",
+          "version": "5.36.0-7+deb12u1",
+          "purl": "pkg:deb/debian/perl-base@5.36.0-7%2Bdeb12u1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-273",
+      "type": "application",
+      "name": "bash",
+      "version": "5.2.15-2",
+      "purl": "pkg:deb/debian/bash@5.2.15-2?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-274",
+      "type": "application",
+      "name": "coreutils",
+      "version": "9.1-1",
+      "purl": "pkg:deb/debian/coreutils@9.1-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-275",
+      "type": "application",
+      "name": "hostname",
+      "version": "3.23+nmu1",
+      "purl": "pkg:deb/debian/hostname@3.23%2Bnmu1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-276",
+      "type": "application",
+      "name": "init-system-helpers",
+      "version": "1.65.2",
+      "purl": "pkg:deb/debian/init-system-helpers@1.65.2?arch=all&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-277",
+      "type": "application",
+      "name": "libpsl",
+      "version": "0.21.2-1",
+      "purl": "pkg:deb/debian/libpsl@0.21.2-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-279",
+          "type": "application",
+          "name": "libpsl5",
+          "version": "0.21.2-1",
+          "purl": "pkg:deb/debian/libpsl5@0.21.2-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-280",
+      "type": "application",
+      "name": "xxhash",
+      "version": "0.8.1-1",
+      "purl": "pkg:deb/debian/xxhash@0.8.1-1?arch=amd64&distro=bookworm&epoch=0",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "debian-dpkg"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/var/lib/dpkg/status"
+        }
+      ],
+      "components": [
+        {
+          "bom-ref": "comp-282",
+          "type": "application",
+          "name": "libxxhash0",
+          "version": "0.8.1-1",
+          "purl": "pkg:deb/debian/libxxhash0@0.8.1-1?arch=amd64&distro=bookworm&epoch=0",
+          "properties": [
+            {
+              "name": "amazon:inspector:sbom_generator:source_file_scanner",
+              "value": "dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_package_collector",
+              "value": "debian-dpkg"
+            },
+            {
+              "name": "amazon:inspector:sbom_generator:source_path",
+              "value": "/var/lib/dpkg/status"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

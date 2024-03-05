@@ -1,0 +1,258 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b16b434b-fdd1-425d-b9a9-57606bfca553",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-03-05T15:07:04Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Amazon Web Services, Inc. (AWS)",
+          "name": "inspector-sbomgen",
+          "version": "1.1.0",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "3b79593222fde0997f835de9a31b6c4f8eecba2126dee17d7c6a2455f0d2c140"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "comp-1",
+      "type": "container",
+      "name": "alpine:3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:image_id",
+          "value": "sha256:c1aabb73d2339c5ebaa3681de2e9d9c18d57485045a4e311d9f8004bec208d67"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:78a822fe2a2d2c84f3de4a403188c45f623017d6a4521d23047c9fbb0801794c"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "comp-2",
+      "type": "operating-system",
+      "name": "Alpine Linux",
+      "version": "3.18.2"
+    },
+    {
+      "bom-ref": "comp-3",
+      "type": "application",
+      "name": "alpine-baselayout",
+      "version": "3.4.3-r1",
+      "purl": "pkg:apk/alpine/alpine-baselayout@3.4.3-r1?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-4",
+      "type": "application",
+      "name": "alpine-keys",
+      "version": "2.4-r1",
+      "purl": "pkg:apk/alpine/alpine-keys@2.4-r1?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-5",
+      "type": "application",
+      "name": "apk-tools",
+      "version": "2.14.0-r2",
+      "purl": "pkg:apk/alpine/apk-tools@2.14.0-r2?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-6",
+      "type": "application",
+      "name": "busybox",
+      "version": "1.36.1-r0",
+      "purl": "pkg:apk/alpine/busybox@1.36.1-r0?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-7",
+      "type": "application",
+      "name": "ca-certificates",
+      "version": "20230506-r0",
+      "purl": "pkg:apk/alpine/ca-certificates@20230506-r0?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-8",
+      "type": "application",
+      "name": "libc-dev",
+      "version": "0.7.2-r5",
+      "purl": "pkg:apk/alpine/libc-dev@0.7.2-r5?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-9",
+      "type": "application",
+      "name": "openssl",
+      "version": "3.1.1-r1",
+      "purl": "pkg:apk/alpine/openssl@3.1.1-r1?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-10",
+      "type": "application",
+      "name": "musl",
+      "version": "1.2.4-r0",
+      "purl": "pkg:apk/alpine/musl@1.2.4-r0?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-11",
+      "type": "application",
+      "name": "pax-utils",
+      "version": "1.3.7-r1",
+      "purl": "pkg:apk/alpine/pax-utils@1.3.7-r1?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-12",
+      "type": "application",
+      "name": "zlib",
+      "version": "1.2.13-r1",
+      "purl": "pkg:apk/alpine/zlib@1.2.13-r1?arch=x86_64&distro=3.18.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_file_scanner",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_package_collector",
+          "value": "alpine-apk"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/lib/apk/db/installed"
+        }
+      ]
+    }
+  ]
+}
