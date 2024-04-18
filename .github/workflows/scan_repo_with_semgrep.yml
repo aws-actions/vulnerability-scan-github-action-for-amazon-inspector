@@ -1,0 +1,20 @@
+name: Semgrep Scan
+
+on: [push]
+
+jobs:
+  semgrep:
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: semgrep scan
+        run: |
+            semgrep \
+              --sarif --output report.sarif \
+              --metrics=off \
+              --config="p/default"
