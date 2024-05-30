@@ -1,0 +1,36 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "metadata": {
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_scanner:critical_vulnerabilities",
+          "value": "0"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:high_vulnerabilities",
+          "value": "0"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:medium_vulnerabilities",
+          "value": "0"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:low_vulnerabilities",
+          "value": "0"
+        }
+      ],
+      "timestamp": "2024-05-17T19:16:04.545Z",
+      "tools": {
+        "services": [
+          {
+            "name": "Amazon Inspector Scan SBOM API",
+            "version": "a679a626+5e0c2381+bf336b8c"
+          }
+        ]
+      }
+    },
+    "serialNumber": "urn:uuid:9e4b4ae6-d9b7-4d93-93d8-62a726fac6b0",
+    "specVersion": "1.5"
+  }
+}

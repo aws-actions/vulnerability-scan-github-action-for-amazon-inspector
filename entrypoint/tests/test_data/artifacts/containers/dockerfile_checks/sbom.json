@@ -1,0 +1,2305 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:bb6c341b-df60-4a43-bab1-06ad7919ca1f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-05-22T13:49:06Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Amazon Web Services, Inc. (AWS)",
+          "name": "inspector-sbomgen",
+          "version": "1.1.1",
+          "hashes": [
+            {
+              "alg": "SHA-256",
+              "content": "135e174b4302c98e15bbd00abf90339f9d7b83562826e6b8b9eb3b1ba6df55e0"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "comp-1",
+      "type": "container",
+      "name": "dev:latest",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:image_id",
+          "value": "sha256:dcd749a9292a4412ca00d690ee6e9975553ef3f2e32571ca975e1c435d3e495e"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:f2fa9f4cf8fd0a521d40e34492b522cee3f35004047e617c75fadeb8bfd1e6b7"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:30d3c4334a2379748937816c01f5c972a8291a5ccc958d6b33d735457a16196e"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:83109fa660b2ed9307948505abd3c1f24c27c64009691067edb765bd3714b98d"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:9fd88d1e6b663dd2c010994bfcec9517e7e0240a807c2f8cda1d54fe9a110d2f"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:63cf444f42ce49f70b4c8b70e343e634bdceaacb79016d37f88e815ced400419"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:3ffa63f2bf843069f6a377395e447997a2c57e303e8859e3b18397c248140f02"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:layer_diff_id",
+          "value": "sha256:3861686658f9f188664fb0f6857deb48906641989236ce40db2dbc71770a71eb"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "comp-2",
+      "type": "operating-system",
+      "name": "Ubuntu",
+      "version": "14.04"
+    },
+    {
+      "bom-ref": "comp-3",
+      "type": "application",
+      "name": "pyyaml",
+      "version": "3.10-4ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/pyyaml@3.10-4ubuntu0.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-5",
+          "type": "application",
+          "name": "python3-yaml",
+          "version": "3.10-4ubuntu0.1",
+          "purl": "pkg:deb/ubuntu/python3-yaml@3.10-4ubuntu0.1?arch=amd64&distro=14.04&epoch=0&source=pyyaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-6",
+      "type": "application",
+      "name": "libtext-wrapi18n-perl",
+      "version": "0.06-7",
+      "purl": "pkg:deb/ubuntu/libtext-wrapi18n-perl@0.06-7?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-7",
+      "type": "application",
+      "name": "ucf",
+      "version": "3.0027+nmu1",
+      "purl": "pkg:deb/ubuntu/ucf@3.0027%2Bnmu1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-8",
+      "type": "application",
+      "name": "libarchive-extract-perl",
+      "version": "0.70-1",
+      "purl": "pkg:deb/ubuntu/libarchive-extract-perl@0.70-1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-9",
+      "type": "application",
+      "name": "p11-kit",
+      "version": "0.20.2-2ubuntu2",
+      "purl": "pkg:deb/ubuntu/p11-kit@0.20.2-2ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-11",
+          "type": "application",
+          "name": "libp11-kit0",
+          "version": "0.20.2-2ubuntu2",
+          "purl": "pkg:deb/ubuntu/libp11-kit0@0.20.2-2ubuntu2?arch=amd64&distro=14.04&epoch=0&source=p11-kit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-12",
+      "type": "application",
+      "name": "libtext-iconv-perl",
+      "version": "1.7-5build2",
+      "purl": "pkg:deb/ubuntu/libtext-iconv-perl@1.7-5build2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-13",
+      "type": "application",
+      "name": "attr",
+      "version": "2.4.47-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/attr@2.4.47-1ubuntu1?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-15",
+          "type": "application",
+          "name": "libattr1",
+          "version": "2.4.47-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/libattr1@2.4.47-1ubuntu1?arch=amd64&distro=14.04&epoch=1&source=attr"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-16",
+      "type": "application",
+      "name": "iputils",
+      "version": "20121221-4ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/iputils@20121221-4ubuntu1.1?arch=amd64&distro=14.04&epoch=3",
+      "components": [
+        {
+          "bom-ref": "comp-18",
+          "type": "application",
+          "name": "iputils-ping",
+          "version": "20121221-4ubuntu1.1",
+          "purl": "pkg:deb/ubuntu/iputils-ping@20121221-4ubuntu1.1?arch=amd64&distro=14.04&epoch=3&source=iputils"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-19",
+      "type": "application",
+      "name": "gdbm",
+      "version": "1.8.3-12build1",
+      "purl": "pkg:deb/ubuntu/gdbm@1.8.3-12build1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-21",
+          "type": "application",
+          "name": "libgdbm3",
+          "version": "1.8.3-12build1",
+          "purl": "pkg:deb/ubuntu/libgdbm3@1.8.3-12build1?arch=amd64&distro=14.04&epoch=0&source=gdbm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-22",
+      "type": "application",
+      "name": "systemd",
+      "version": "204-5ubuntu20.31",
+      "purl": "pkg:deb/ubuntu/systemd@204-5ubuntu20.31?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-24",
+          "type": "application",
+          "name": "libudev1",
+          "version": "204-5ubuntu20.31",
+          "purl": "pkg:deb/ubuntu/libudev1@204-5ubuntu20.31?arch=amd64&distro=14.04&epoch=0&source=systemd"
+        },
+        {
+          "bom-ref": "comp-26",
+          "type": "application",
+          "name": "udev",
+          "version": "204-5ubuntu20.31",
+          "purl": "pkg:deb/ubuntu/udev@204-5ubuntu20.31?arch=amd64&distro=14.04&epoch=0&source=systemd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-27",
+      "type": "application",
+      "name": "adduser",
+      "version": "3.113+nmu3ubuntu3",
+      "purl": "pkg:deb/ubuntu/adduser@3.113%2Bnmu3ubuntu3?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-28",
+      "type": "application",
+      "name": "gccgo-4.9",
+      "version": "4.9.3-0ubuntu4",
+      "purl": "pkg:deb/ubuntu/gccgo-4.9@4.9.3-0ubuntu4?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-30",
+          "type": "application",
+          "name": "libgcc1",
+          "version": "4.9.3-0ubuntu4",
+          "purl": "pkg:deb/ubuntu/libgcc1@4.9.3-0ubuntu4?arch=amd64&distro=14.04&epoch=0&source=gccgo-4.9"
+        },
+        {
+          "bom-ref": "comp-32",
+          "type": "application",
+          "name": "gcc-4.9-base",
+          "version": "4.9.3-0ubuntu4",
+          "purl": "pkg:deb/ubuntu/gcc-4.9-base@4.9.3-0ubuntu4?arch=amd64&distro=14.04&epoch=0&source=gccgo-4.9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-33",
+      "type": "application",
+      "name": "readline6",
+      "version": "6.3-4ubuntu2",
+      "purl": "pkg:deb/ubuntu/readline6@6.3-4ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-35",
+          "type": "application",
+          "name": "libreadline6",
+          "version": "6.3-4ubuntu2",
+          "purl": "pkg:deb/ubuntu/libreadline6@6.3-4ubuntu2?arch=amd64&distro=14.04&epoch=0&source=readline6"
+        },
+        {
+          "bom-ref": "comp-37",
+          "type": "application",
+          "name": "readline-common",
+          "version": "6.3-4ubuntu2",
+          "purl": "pkg:deb/ubuntu/readline-common@6.3-4ubuntu2?arch=amd64&distro=14.04&epoch=0&source=readline6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-38",
+      "type": "application",
+      "name": "plymouth",
+      "version": "0.8.8-0ubuntu17.2",
+      "purl": "pkg:deb/ubuntu/plymouth@0.8.8-0ubuntu17.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-40",
+          "type": "application",
+          "name": "libplymouth2",
+          "version": "0.8.8-0ubuntu17.2",
+          "purl": "pkg:deb/ubuntu/libplymouth2@0.8.8-0ubuntu17.2?arch=amd64&distro=14.04&epoch=0&source=plymouth"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-41",
+      "type": "application",
+      "name": "xz-utils",
+      "version": "5.1.1alpha+20120614-2ubuntu2",
+      "purl": "pkg:deb/ubuntu/xz-utils@5.1.1alpha%2B20120614-2ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-43",
+          "type": "application",
+          "name": "liblzma5",
+          "version": "5.1.1alpha+20120614-2ubuntu2",
+          "purl": "pkg:deb/ubuntu/liblzma5@5.1.1alpha%2B20120614-2ubuntu2?arch=amd64&distro=14.04&epoch=0&source=xz-utils"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-44",
+      "type": "application",
+      "name": "ca-certificates",
+      "version": "20170717~14.04.2",
+      "purl": "pkg:deb/ubuntu/ca-certificates@20170717~14.04.2?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-45",
+      "type": "application",
+      "name": "debconf",
+      "version": "1.5.51ubuntu2",
+      "purl": "pkg:deb/ubuntu/debconf@1.5.51ubuntu2?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-47",
+          "type": "application",
+          "name": "debconf-i18n",
+          "version": "1.5.51ubuntu2",
+          "purl": "pkg:deb/ubuntu/debconf-i18n@1.5.51ubuntu2?arch=all&distro=14.04&epoch=0&source=debconf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-48",
+      "type": "application",
+      "name": "cdebconf",
+      "version": "0.187ubuntu1",
+      "purl": "pkg:deb/ubuntu/cdebconf@0.187ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-50",
+          "type": "application",
+          "name": "libdebconfclient0",
+          "version": "0.187ubuntu1",
+          "purl": "pkg:deb/ubuntu/libdebconfclient0@0.187ubuntu1?arch=amd64&distro=14.04&epoch=0&source=cdebconf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-51",
+      "type": "application",
+      "name": "dh-python",
+      "version": "1.20140128-1ubuntu8.2",
+      "purl": "pkg:deb/ubuntu/dh-python@1.20140128-1ubuntu8.2?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-52",
+      "type": "application",
+      "name": "liblog-message-simple-perl",
+      "version": "0.10-1",
+      "purl": "pkg:deb/ubuntu/liblog-message-simple-perl@0.10-1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-53",
+      "type": "application",
+      "name": "pcre3",
+      "version": "8.31-2ubuntu2.3",
+      "purl": "pkg:deb/ubuntu/pcre3@8.31-2ubuntu2.3?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-55",
+          "type": "application",
+          "name": "libpcre3",
+          "version": "8.31-2ubuntu2.3",
+          "purl": "pkg:deb/ubuntu/libpcre3@8.31-2ubuntu2.3?arch=amd64&distro=14.04&epoch=1&source=pcre3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-56",
+      "type": "application",
+      "name": "libsemanage",
+      "version": "2.2-1",
+      "purl": "pkg:deb/ubuntu/libsemanage@2.2-1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-58",
+          "type": "application",
+          "name": "libsemanage1",
+          "version": "2.2-1",
+          "purl": "pkg:deb/ubuntu/libsemanage1@2.2-1?arch=amd64&distro=14.04&epoch=0&source=libsemanage"
+        },
+        {
+          "bom-ref": "comp-60",
+          "type": "application",
+          "name": "libsemanage-common",
+          "version": "2.2-1",
+          "purl": "pkg:deb/ubuntu/libsemanage-common@2.2-1?arch=amd64&distro=14.04&epoch=0&source=libsemanage"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-61",
+      "type": "application",
+      "name": "sqlite3",
+      "version": "3.8.2-1ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/sqlite3@3.8.2-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-63",
+          "type": "application",
+          "name": "libsqlite3-0",
+          "version": "3.8.2-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libsqlite3-0@3.8.2-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=sqlite3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-64",
+      "type": "application",
+      "name": "sed",
+      "version": "4.2.2-4ubuntu1",
+      "purl": "pkg:deb/ubuntu/sed@4.2.2-4ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-65",
+      "type": "application",
+      "name": "gnutls26",
+      "version": "2.12.23-12ubuntu2.8",
+      "purl": "pkg:deb/ubuntu/gnutls26@2.12.23-12ubuntu2.8?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-67",
+          "type": "application",
+          "name": "libgnutls-openssl27",
+          "version": "2.12.23-12ubuntu2.8",
+          "purl": "pkg:deb/ubuntu/libgnutls-openssl27@2.12.23-12ubuntu2.8?arch=amd64&distro=14.04&epoch=0&source=gnutls26"
+        },
+        {
+          "bom-ref": "comp-69",
+          "type": "application",
+          "name": "libgnutls26",
+          "version": "2.12.23-12ubuntu2.8",
+          "purl": "pkg:deb/ubuntu/libgnutls26@2.12.23-12ubuntu2.8?arch=amd64&distro=14.04&epoch=0&source=gnutls26"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-70",
+      "type": "application",
+      "name": "libffi",
+      "version": "3.1~rc1+r3.0.13-12ubuntu0.2",
+      "purl": "pkg:deb/ubuntu/libffi@3.1~rc1%2Br3.0.13-12ubuntu0.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-72",
+          "type": "application",
+          "name": "libffi6",
+          "version": "3.1~rc1+r3.0.13-12ubuntu0.2",
+          "purl": "pkg:deb/ubuntu/libffi6@3.1~rc1%2Br3.0.13-12ubuntu0.2?arch=amd64&distro=14.04&epoch=0&source=libffi"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-73",
+      "type": "application",
+      "name": "mpdecimal",
+      "version": "2.4.0-6",
+      "purl": "pkg:deb/ubuntu/mpdecimal@2.4.0-6?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-75",
+          "type": "application",
+          "name": "libmpdec2",
+          "version": "2.4.0-6",
+          "purl": "pkg:deb/ubuntu/libmpdec2@2.4.0-6?arch=amd64&distro=14.04&epoch=0&source=mpdecimal"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-76",
+      "type": "application",
+      "name": "krb5",
+      "version": "1.12+dfsg-2ubuntu5.4",
+      "purl": "pkg:deb/ubuntu/krb5@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-78",
+          "type": "application",
+          "name": "libgssapi-krb5-2",
+          "version": "1.12+dfsg-2ubuntu5.4",
+          "purl": "pkg:deb/ubuntu/libgssapi-krb5-2@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0&source=krb5"
+        },
+        {
+          "bom-ref": "comp-80",
+          "type": "application",
+          "name": "libk5crypto3",
+          "version": "1.12+dfsg-2ubuntu5.4",
+          "purl": "pkg:deb/ubuntu/libk5crypto3@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0&source=krb5"
+        },
+        {
+          "bom-ref": "comp-82",
+          "type": "application",
+          "name": "krb5-locales",
+          "version": "1.12+dfsg-2ubuntu5.4",
+          "purl": "pkg:deb/ubuntu/krb5-locales@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0&source=krb5"
+        },
+        {
+          "bom-ref": "comp-84",
+          "type": "application",
+          "name": "libkrb5support0",
+          "version": "1.12+dfsg-2ubuntu5.4",
+          "purl": "pkg:deb/ubuntu/libkrb5support0@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0&source=krb5"
+        },
+        {
+          "bom-ref": "comp-86",
+          "type": "application",
+          "name": "libkrb5-3",
+          "version": "1.12+dfsg-2ubuntu5.4",
+          "purl": "pkg:deb/ubuntu/libkrb5-3@1.12%2Bdfsg-2ubuntu5.4?arch=amd64&distro=14.04&epoch=0&source=krb5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-87",
+      "type": "application",
+      "name": "tzdata",
+      "version": "2019a-0ubuntu0.14.04",
+      "purl": "pkg:deb/ubuntu/tzdata@2019a-0ubuntu0.14.04?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-88",
+      "type": "application",
+      "name": "sysvinit",
+      "version": "2.88dsf-41ubuntu6.3",
+      "purl": "pkg:deb/ubuntu/sysvinit@2.88dsf-41ubuntu6.3?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-90",
+          "type": "application",
+          "name": "sysv-rc",
+          "version": "2.88dsf-41ubuntu6.3",
+          "purl": "pkg:deb/ubuntu/sysv-rc@2.88dsf-41ubuntu6.3?arch=all&distro=14.04&epoch=0&source=sysvinit"
+        },
+        {
+          "bom-ref": "comp-92",
+          "type": "application",
+          "name": "initscripts",
+          "version": "2.88dsf-41ubuntu6.3",
+          "purl": "pkg:deb/ubuntu/initscripts@2.88dsf-41ubuntu6.3?arch=all&distro=14.04&epoch=0&source=sysvinit"
+        },
+        {
+          "bom-ref": "comp-94",
+          "type": "application",
+          "name": "sysvinit-utils",
+          "version": "2.88dsf-41ubuntu6.3",
+          "purl": "pkg:deb/ubuntu/sysvinit-utils@2.88dsf-41ubuntu6.3?arch=all&distro=14.04&epoch=0&source=sysvinit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-95",
+      "type": "application",
+      "name": "mountall",
+      "version": "2.53ubuntu1",
+      "purl": "pkg:deb/ubuntu/mountall@2.53ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-96",
+      "type": "application",
+      "name": "fribidi",
+      "version": "0.19.6-1",
+      "purl": "pkg:deb/ubuntu/fribidi@0.19.6-1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-98",
+          "type": "application",
+          "name": "libfribidi0",
+          "version": "0.19.6-1",
+          "purl": "pkg:deb/ubuntu/libfribidi0@0.19.6-1?arch=amd64&distro=14.04&epoch=0&source=fribidi"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-99",
+      "type": "application",
+      "name": "keyutils",
+      "version": "1.5.6-1",
+      "purl": "pkg:deb/ubuntu/keyutils@1.5.6-1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-101",
+          "type": "application",
+          "name": "libkeyutils1",
+          "version": "1.5.6-1",
+          "purl": "pkg:deb/ubuntu/libkeyutils1@1.5.6-1?arch=amd64&distro=14.04&epoch=0&source=keyutils"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-102",
+      "type": "application",
+      "name": "lsb",
+      "version": "4.1+Debian11ubuntu6.2",
+      "purl": "pkg:deb/ubuntu/lsb@4.1%2BDebian11ubuntu6.2?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-104",
+          "type": "application",
+          "name": "lsb-base",
+          "version": "4.1+Debian11ubuntu6.2",
+          "purl": "pkg:deb/ubuntu/lsb-base@4.1%2BDebian11ubuntu6.2?arch=all&distro=14.04&epoch=0&source=lsb"
+        },
+        {
+          "bom-ref": "comp-106",
+          "type": "application",
+          "name": "lsb-release",
+          "version": "4.1+Debian11ubuntu6.2",
+          "purl": "pkg:deb/ubuntu/lsb-release@4.1%2BDebian11ubuntu6.2?arch=all&distro=14.04&epoch=0&source=lsb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-107",
+      "type": "application",
+      "name": "ifupdown",
+      "version": "0.7.47.2ubuntu4.5",
+      "purl": "pkg:deb/ubuntu/ifupdown@0.7.47.2ubuntu4.5?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-108",
+      "type": "application",
+      "name": "ubuntu-keyring",
+      "version": "2012.05.19",
+      "purl": "pkg:deb/ubuntu/ubuntu-keyring@2012.05.19?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-109",
+      "type": "application",
+      "name": "rtmpdump",
+      "version": "2.4+20121230.gitdf6c518-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/rtmpdump@2.4%2B20121230.gitdf6c518-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-111",
+          "type": "application",
+          "name": "librtmp0",
+          "version": "2.4+20121230.gitdf6c518-1ubuntu0.1",
+          "purl": "pkg:deb/ubuntu/librtmp0@2.4%2B20121230.gitdf6c518-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0&source=rtmpdump"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-112",
+      "type": "application",
+      "name": "ureadahead",
+      "version": "0.100.0-16",
+      "purl": "pkg:deb/ubuntu/ureadahead@0.100.0-16?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-113",
+      "type": "application",
+      "name": "openldap",
+      "version": "2.4.31-1+nmu2ubuntu8.5",
+      "purl": "pkg:deb/ubuntu/openldap@2.4.31-1%2Bnmu2ubuntu8.5?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-115",
+          "type": "application",
+          "name": "libldap-2.4-2",
+          "version": "2.4.31-1+nmu2ubuntu8.5",
+          "purl": "pkg:deb/ubuntu/libldap-2.4-2@2.4.31-1%2Bnmu2ubuntu8.5?arch=amd64&distro=14.04&epoch=0&source=openldap"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-116",
+      "type": "application",
+      "name": "libtext-charwidth-perl",
+      "version": "0.04-7build3",
+      "purl": "pkg:deb/ubuntu/libtext-charwidth-perl@0.04-7build3?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-117",
+      "type": "application",
+      "name": "apt",
+      "version": "1.0.1ubuntu2.24",
+      "purl": "pkg:deb/ubuntu/apt@1.0.1ubuntu2.24?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-119",
+          "type": "application",
+          "name": "apt-transport-https",
+          "version": "1.0.1ubuntu2.24",
+          "purl": "pkg:deb/ubuntu/apt-transport-https@1.0.1ubuntu2.24?arch=amd64&distro=14.04&epoch=0&source=apt"
+        },
+        {
+          "bom-ref": "comp-121",
+          "type": "application",
+          "name": "libapt-pkg4.12",
+          "version": "1.0.1ubuntu2.24",
+          "purl": "pkg:deb/ubuntu/libapt-pkg4.12@1.0.1ubuntu2.24?arch=amd64&distro=14.04&epoch=0&source=apt"
+        },
+        {
+          "bom-ref": "comp-123",
+          "type": "application",
+          "name": "libapt-inst1.5",
+          "version": "1.0.1ubuntu2.24",
+          "purl": "pkg:deb/ubuntu/libapt-inst1.5@1.0.1ubuntu2.24?arch=amd64&distro=14.04&epoch=0&source=apt"
+        },
+        {
+          "bom-ref": "comp-125",
+          "type": "application",
+          "name": "apt-utils",
+          "version": "1.0.1ubuntu2.24",
+          "purl": "pkg:deb/ubuntu/apt-utils@1.0.1ubuntu2.24?arch=amd64&distro=14.04&epoch=0&source=apt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-126",
+      "type": "application",
+      "name": "findutils",
+      "version": "4.4.2-7",
+      "purl": "pkg:deb/ubuntu/findutils@4.4.2-7?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-127",
+      "type": "application",
+      "name": "dpkg",
+      "version": "1.17.5ubuntu5.8",
+      "purl": "pkg:deb/ubuntu/dpkg@1.17.5ubuntu5.8?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-128",
+      "type": "application",
+      "name": "less",
+      "version": "458-2",
+      "purl": "pkg:deb/ubuntu/less@458-2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-129",
+      "type": "application",
+      "name": "newt",
+      "version": "0.52.15-2ubuntu5",
+      "purl": "pkg:deb/ubuntu/newt@0.52.15-2ubuntu5?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-131",
+          "type": "application",
+          "name": "whiptail",
+          "version": "0.52.15-2ubuntu5",
+          "purl": "pkg:deb/ubuntu/whiptail@0.52.15-2ubuntu5?arch=amd64&distro=14.04&epoch=0&source=newt"
+        },
+        {
+          "bom-ref": "comp-133",
+          "type": "application",
+          "name": "libnewt0.52",
+          "version": "0.52.15-2ubuntu5",
+          "purl": "pkg:deb/ubuntu/libnewt0.52@0.52.15-2ubuntu5?arch=amd64&distro=14.04&epoch=0&source=newt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-134",
+      "type": "application",
+      "name": "heimdal",
+      "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-136",
+          "type": "application",
+          "name": "libhx509-5-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libhx509-5-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-138",
+          "type": "application",
+          "name": "libroken18-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libroken18-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-140",
+          "type": "application",
+          "name": "libhcrypto4-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libhcrypto4-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-142",
+          "type": "application",
+          "name": "libwind0-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libwind0-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-144",
+          "type": "application",
+          "name": "libheimntlm0-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libheimntlm0-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-146",
+          "type": "application",
+          "name": "libheimbase1-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libheimbase1-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-148",
+          "type": "application",
+          "name": "libgssapi3-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libgssapi3-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-150",
+          "type": "application",
+          "name": "libasn1-8-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libasn1-8-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        },
+        {
+          "bom-ref": "comp-152",
+          "type": "application",
+          "name": "libkrb5-26-heimdal",
+          "version": "1.6~git20131207+dfsg-1ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libkrb5-26-heimdal@1.6~git20131207%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=heimdal"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-153",
+      "type": "application",
+      "name": "lockfile-progs",
+      "version": "0.1.17",
+      "purl": "pkg:deb/ubuntu/lockfile-progs@0.1.17?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-154",
+      "type": "application",
+      "name": "libtext-soundex-perl",
+      "version": "3.4-1build1",
+      "purl": "pkg:deb/ubuntu/libtext-soundex-perl@3.4-1build1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-155",
+      "type": "application",
+      "name": "sudo",
+      "version": "1.8.9p5-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/sudo@1.8.9p5-1ubuntu1.4?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-156",
+      "type": "application",
+      "name": "cgmanager",
+      "version": "0.24-0ubuntu7.5",
+      "purl": "pkg:deb/ubuntu/cgmanager@0.24-0ubuntu7.5?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-158",
+          "type": "application",
+          "name": "libcgmanager0",
+          "version": "0.24-0ubuntu7.5",
+          "purl": "pkg:deb/ubuntu/libcgmanager0@0.24-0ubuntu7.5?arch=amd64&distro=14.04&epoch=0&source=cgmanager"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-159",
+      "type": "application",
+      "name": "liblocale-gettext-perl",
+      "version": "1.05-7build3",
+      "purl": "pkg:deb/ubuntu/liblocale-gettext-perl@1.05-7build3?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-160",
+      "type": "application",
+      "name": "python-setuptools",
+      "version": "3.3-1ubuntu2",
+      "purl": "pkg:deb/ubuntu/python-setuptools@3.3-1ubuntu2?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-162",
+          "type": "application",
+          "name": "python3-pkg-resources",
+          "version": "3.3-1ubuntu2",
+          "purl": "pkg:deb/ubuntu/python3-pkg-resources@3.3-1ubuntu2?arch=all&distro=14.04&epoch=0&source=python-setuptools"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-163",
+      "type": "application",
+      "name": "coreutils",
+      "version": "8.21-1ubuntu5.4",
+      "purl": "pkg:deb/ubuntu/coreutils@8.21-1ubuntu5.4?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-164",
+      "type": "application",
+      "name": "dbus",
+      "version": "1.6.18-0ubuntu4.5",
+      "purl": "pkg:deb/ubuntu/dbus@1.6.18-0ubuntu4.5?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-166",
+          "type": "application",
+          "name": "libdbus-1-3",
+          "version": "1.6.18-0ubuntu4.5",
+          "purl": "pkg:deb/ubuntu/libdbus-1-3@1.6.18-0ubuntu4.5?arch=amd64&distro=14.04&epoch=0&source=dbus"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-167",
+      "type": "application",
+      "name": "util-linux",
+      "version": "2.20.1-5.1ubuntu20.9",
+      "purl": "pkg:deb/ubuntu/util-linux@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-169",
+          "type": "application",
+          "name": "libuuid1",
+          "version": "2.20.1-5.1ubuntu20.9",
+          "purl": "pkg:deb/ubuntu/libuuid1@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0&source=util-linux"
+        },
+        {
+          "bom-ref": "comp-171",
+          "type": "application",
+          "name": "bsdutils",
+          "version": "2.20.1-5.1ubuntu20.9",
+          "purl": "pkg:deb/ubuntu/bsdutils@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0&source=util-linux"
+        },
+        {
+          "bom-ref": "comp-173",
+          "type": "application",
+          "name": "libmount1",
+          "version": "2.20.1-5.1ubuntu20.9",
+          "purl": "pkg:deb/ubuntu/libmount1@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0&source=util-linux"
+        },
+        {
+          "bom-ref": "comp-175",
+          "type": "application",
+          "name": "mount",
+          "version": "2.20.1-5.1ubuntu20.9",
+          "purl": "pkg:deb/ubuntu/mount@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0&source=util-linux"
+        },
+        {
+          "bom-ref": "comp-177",
+          "type": "application",
+          "name": "libblkid1",
+          "version": "2.20.1-5.1ubuntu20.9",
+          "purl": "pkg:deb/ubuntu/libblkid1@2.20.1-5.1ubuntu20.9?arch=amd64&distro=14.04&epoch=0&source=util-linux"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-178",
+      "type": "application",
+      "name": "gzip",
+      "version": "1.6-3ubuntu1",
+      "purl": "pkg:deb/ubuntu/gzip@1.6-3ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-179",
+      "type": "application",
+      "name": "libidn",
+      "version": "1.28-1ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/libidn@1.28-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-181",
+          "type": "application",
+          "name": "libidn11",
+          "version": "1.28-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libidn11@1.28-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=libidn"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-182",
+      "type": "application",
+      "name": "initramfs-tools",
+      "version": "0.103ubuntu4.11",
+      "purl": "pkg:deb/ubuntu/initramfs-tools@0.103ubuntu4.11?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-184",
+          "type": "application",
+          "name": "initramfs-tools-bin",
+          "version": "0.103ubuntu4.11",
+          "purl": "pkg:deb/ubuntu/initramfs-tools-bin@0.103ubuntu4.11?arch=all&distro=14.04&epoch=0&source=initramfs-tools"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-185",
+      "type": "application",
+      "name": "python3-defaults",
+      "version": "3.4.0-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/python3-defaults@3.4.0-0ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-187",
+          "type": "application",
+          "name": "libpython3-stdlib",
+          "version": "3.4.0-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/libpython3-stdlib@3.4.0-0ubuntu2?arch=amd64&distro=14.04&epoch=0&source=python3-defaults"
+        },
+        {
+          "bom-ref": "comp-189",
+          "type": "application",
+          "name": "python3-minimal",
+          "version": "3.4.0-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/python3-minimal@3.4.0-0ubuntu2?arch=amd64&distro=14.04&epoch=0&source=python3-defaults"
+        },
+        {
+          "bom-ref": "comp-191",
+          "type": "application",
+          "name": "python3",
+          "version": "3.4.0-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/python3@3.4.0-0ubuntu2?arch=amd64&distro=14.04&epoch=0&source=python3-defaults"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-192",
+      "type": "application",
+      "name": "netbase",
+      "version": "5.2",
+      "purl": "pkg:deb/ubuntu/netbase@5.2?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-193",
+      "type": "application",
+      "name": "netcat-openbsd",
+      "version": "1.105-7ubuntu1",
+      "purl": "pkg:deb/ubuntu/netcat-openbsd@1.105-7ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-194",
+      "type": "application",
+      "name": "console-setup",
+      "version": "1.70ubuntu8",
+      "purl": "pkg:deb/ubuntu/console-setup@1.70ubuntu8?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-196",
+          "type": "application",
+          "name": "keyboard-configuration",
+          "version": "1.70ubuntu8",
+          "purl": "pkg:deb/ubuntu/keyboard-configuration@1.70ubuntu8?arch=all&distro=14.04&epoch=0&source=console-setup"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-197",
+      "type": "application",
+      "name": "libcap2",
+      "version": "2.24-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/libcap2@2.24-0ubuntu2?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-199",
+          "type": "application",
+          "name": "libpam-cap",
+          "version": "2.24-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/libpam-cap@2.24-0ubuntu2?arch=amd64&distro=14.04&epoch=1&source=libcap2"
+        },
+        {
+          "bom-ref": "comp-201",
+          "type": "application",
+          "name": "libcap2-bin",
+          "version": "2.24-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/libcap2-bin@2.24-0ubuntu2?arch=amd64&distro=14.04&epoch=1&source=libcap2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-202",
+      "type": "application",
+      "name": "debianutils",
+      "version": "4.4",
+      "purl": "pkg:deb/ubuntu/debianutils@4.4?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-203",
+      "type": "application",
+      "name": "curl",
+      "version": "7.35.0-1ubuntu2.20",
+      "purl": "pkg:deb/ubuntu/curl@7.35.0-1ubuntu2.20?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-205",
+          "type": "application",
+          "name": "libcurl3-gnutls",
+          "version": "7.35.0-1ubuntu2.20",
+          "purl": "pkg:deb/ubuntu/libcurl3-gnutls@7.35.0-1ubuntu2.20?arch=amd64&distro=14.04&epoch=0&source=curl"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-206",
+      "type": "application",
+      "name": "libusb",
+      "version": "0.1.12-23.3ubuntu1",
+      "purl": "pkg:deb/ubuntu/libusb@0.1.12-23.3ubuntu1?arch=amd64&distro=14.04&epoch=2",
+      "components": [
+        {
+          "bom-ref": "comp-208",
+          "type": "application",
+          "name": "libusb-0.1-4",
+          "version": "0.1.12-23.3ubuntu1",
+          "purl": "pkg:deb/ubuntu/libusb-0.1-4@0.1.12-23.3ubuntu1?arch=amd64&distro=14.04&epoch=2&source=libusb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-209",
+      "type": "application",
+      "name": "file",
+      "version": "5.14-2ubuntu3.4",
+      "purl": "pkg:deb/ubuntu/file@5.14-2ubuntu3.4?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-211",
+          "type": "application",
+          "name": "libmagic1",
+          "version": "5.14-2ubuntu3.4",
+          "purl": "pkg:deb/ubuntu/libmagic1@5.14-2ubuntu3.4?arch=amd64&distro=14.04&epoch=1&source=file"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-212",
+      "type": "application",
+      "name": "zlib",
+      "version": "1.2.8.dfsg-1ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/zlib@1.2.8.dfsg-1ubuntu1.1?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-214",
+          "type": "application",
+          "name": "zlib1g",
+          "version": "1.2.8.dfsg-1ubuntu1.1",
+          "purl": "pkg:deb/ubuntu/zlib1g@1.2.8.dfsg-1ubuntu1.1?arch=amd64&distro=14.04&epoch=1&source=zlib"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-215",
+      "type": "application",
+      "name": "base-passwd",
+      "version": "3.5.33",
+      "purl": "pkg:deb/ubuntu/base-passwd@3.5.33?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-216",
+      "type": "application",
+      "name": "hostname",
+      "version": "3.15ubuntu1",
+      "purl": "pkg:deb/ubuntu/hostname@3.15ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-217",
+      "type": "application",
+      "name": "mime-support",
+      "version": "3.54ubuntu1.1",
+      "purl": "pkg:deb/ubuntu/mime-support@3.54ubuntu1.1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-218",
+      "type": "application",
+      "name": "gnupg",
+      "version": "1.4.16-1ubuntu2.6",
+      "purl": "pkg:deb/ubuntu/gnupg@1.4.16-1ubuntu2.6?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-220",
+          "type": "application",
+          "name": "gpgv",
+          "version": "1.4.16-1ubuntu2.6",
+          "purl": "pkg:deb/ubuntu/gpgv@1.4.16-1ubuntu2.6?arch=amd64&distro=14.04&epoch=0&source=gnupg"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-221",
+      "type": "application",
+      "name": "ncurses",
+      "version": "5.9+20140118-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/ncurses@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-223",
+          "type": "application",
+          "name": "ncurses-base",
+          "version": "5.9+20140118-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/ncurses-base@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0&source=ncurses"
+        },
+        {
+          "bom-ref": "comp-225",
+          "type": "application",
+          "name": "ncurses-bin",
+          "version": "5.9+20140118-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/ncurses-bin@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0&source=ncurses"
+        },
+        {
+          "bom-ref": "comp-227",
+          "type": "application",
+          "name": "libncurses5",
+          "version": "5.9+20140118-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/libncurses5@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0&source=ncurses"
+        },
+        {
+          "bom-ref": "comp-229",
+          "type": "application",
+          "name": "libncursesw5",
+          "version": "5.9+20140118-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/libncursesw5@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0&source=ncurses"
+        },
+        {
+          "bom-ref": "comp-231",
+          "type": "application",
+          "name": "libtinfo5",
+          "version": "5.9+20140118-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/libtinfo5@5.9%2B20140118-1ubuntu1?arch=all&distro=14.04&epoch=0&source=ncurses"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-232",
+      "type": "application",
+      "name": "libdrm",
+      "version": "2.4.67-1ubuntu0.14.04.2",
+      "purl": "pkg:deb/ubuntu/libdrm@2.4.67-1ubuntu0.14.04.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-234",
+          "type": "application",
+          "name": "libdrm2",
+          "version": "2.4.67-1ubuntu0.14.04.2",
+          "purl": "pkg:deb/ubuntu/libdrm2@2.4.67-1ubuntu0.14.04.2?arch=amd64&distro=14.04&epoch=0&source=libdrm"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-235",
+      "type": "application",
+      "name": "grep",
+      "version": "2.16-1",
+      "purl": "pkg:deb/ubuntu/grep@2.16-1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-236",
+      "type": "application",
+      "name": "isc-dhcp",
+      "version": "4.2.4-7ubuntu12.13",
+      "purl": "pkg:deb/ubuntu/isc-dhcp@4.2.4-7ubuntu12.13?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-238",
+          "type": "application",
+          "name": "isc-dhcp-common",
+          "version": "4.2.4-7ubuntu12.13",
+          "purl": "pkg:deb/ubuntu/isc-dhcp-common@4.2.4-7ubuntu12.13?arch=amd64&distro=14.04&epoch=0&source=isc-dhcp"
+        },
+        {
+          "bom-ref": "comp-240",
+          "type": "application",
+          "name": "isc-dhcp-client",
+          "version": "4.2.4-7ubuntu12.13",
+          "purl": "pkg:deb/ubuntu/isc-dhcp-client@4.2.4-7ubuntu12.13?arch=amd64&distro=14.04&epoch=0&source=isc-dhcp"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-241",
+      "type": "application",
+      "name": "vim",
+      "version": "7.4.052-1ubuntu3.1",
+      "purl": "pkg:deb/ubuntu/vim@7.4.052-1ubuntu3.1?arch=amd64&distro=14.04&epoch=2",
+      "components": [
+        {
+          "bom-ref": "comp-243",
+          "type": "application",
+          "name": "vim-common",
+          "version": "7.4.052-1ubuntu3.1",
+          "purl": "pkg:deb/ubuntu/vim-common@7.4.052-1ubuntu3.1?arch=amd64&distro=14.04&epoch=2&source=vim"
+        },
+        {
+          "bom-ref": "comp-245",
+          "type": "application",
+          "name": "vim-tiny",
+          "version": "7.4.052-1ubuntu3.1",
+          "purl": "pkg:deb/ubuntu/vim-tiny@7.4.052-1ubuntu3.1?arch=amd64&distro=14.04&epoch=2&source=vim"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-246",
+      "type": "application",
+      "name": "acl",
+      "version": "2.2.52-1",
+      "purl": "pkg:deb/ubuntu/acl@2.2.52-1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-248",
+          "type": "application",
+          "name": "libacl1",
+          "version": "2.2.52-1",
+          "purl": "pkg:deb/ubuntu/libacl1@2.2.52-1?arch=amd64&distro=14.04&epoch=0&source=acl"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-249",
+      "type": "application",
+      "name": "libbsd",
+      "version": "0.6.0-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/libbsd@0.6.0-2ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-251",
+          "type": "application",
+          "name": "libbsd0",
+          "version": "0.6.0-2ubuntu1",
+          "purl": "pkg:deb/ubuntu/libbsd0@0.6.0-2ubuntu1?arch=amd64&distro=14.04&epoch=0&source=libbsd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-252",
+      "type": "application",
+      "name": "expat",
+      "version": "2.1.0-4ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/expat@2.1.0-4ubuntu1.4?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-254",
+          "type": "application",
+          "name": "libexpat1",
+          "version": "2.1.0-4ubuntu1.4",
+          "purl": "pkg:deb/ubuntu/libexpat1@2.1.0-4ubuntu1.4?arch=amd64&distro=14.04&epoch=0&source=expat"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-255",
+      "type": "application",
+      "name": "eject",
+      "version": "2.1.5+deb1+cvs20081104-13.1ubuntu0.14.04.1",
+      "purl": "pkg:deb/ubuntu/eject@2.1.5%2Bdeb1%2Bcvs20081104-13.1ubuntu0.14.04.1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-256",
+      "type": "application",
+      "name": "rsyslog",
+      "version": "7.4.4-1ubuntu2.7",
+      "purl": "pkg:deb/ubuntu/rsyslog@7.4.4-1ubuntu2.7?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-257",
+      "type": "application",
+      "name": "libgcrypt11",
+      "version": "1.5.3-2ubuntu4.6",
+      "purl": "pkg:deb/ubuntu/libgcrypt11@1.5.3-2ubuntu4.6?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-258",
+      "type": "application",
+      "name": "sensible-utils",
+      "version": "0.0.9ubuntu0.14.04.1",
+      "purl": "pkg:deb/ubuntu/sensible-utils@0.0.9ubuntu0.14.04.1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-259",
+      "type": "application",
+      "name": "tar",
+      "version": "1.27.1-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/tar@1.27.1-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-260",
+      "type": "application",
+      "name": "base-files",
+      "version": "7.2ubuntu5.6",
+      "purl": "pkg:deb/ubuntu/base-files@7.2ubuntu5.6?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-261",
+      "type": "application",
+      "name": "bzip2",
+      "version": "1.0.6-5",
+      "purl": "pkg:deb/ubuntu/bzip2@1.0.6-5?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-263",
+          "type": "application",
+          "name": "libbz2-1.0",
+          "version": "1.0.6-5",
+          "purl": "pkg:deb/ubuntu/libbz2-1.0@1.0.6-5?arch=amd64&distro=14.04&epoch=0&source=bzip2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-264",
+      "type": "application",
+      "name": "libterm-ui-perl",
+      "version": "0.42-1",
+      "purl": "pkg:deb/ubuntu/libterm-ui-perl@0.42-1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-265",
+      "type": "application",
+      "name": "upstart",
+      "version": "1.12.1-0ubuntu4.2",
+      "purl": "pkg:deb/ubuntu/upstart@1.12.1-0ubuntu4.2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-266",
+      "type": "application",
+      "name": "libnih",
+      "version": "1.0.3-4ubuntu25",
+      "purl": "pkg:deb/ubuntu/libnih@1.0.3-4ubuntu25?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-268",
+          "type": "application",
+          "name": "libnih1",
+          "version": "1.0.3-4ubuntu25",
+          "purl": "pkg:deb/ubuntu/libnih1@1.0.3-4ubuntu25?arch=amd64&distro=14.04&epoch=0&source=libnih"
+        },
+        {
+          "bom-ref": "comp-270",
+          "type": "application",
+          "name": "libnih-dbus1",
+          "version": "1.0.3-4ubuntu25",
+          "purl": "pkg:deb/ubuntu/libnih-dbus1@1.0.3-4ubuntu25?arch=amd64&distro=14.04&epoch=0&source=libnih"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-271",
+      "type": "application",
+      "name": "dash",
+      "version": "0.5.7-4ubuntu1",
+      "purl": "pkg:deb/ubuntu/dash@0.5.7-4ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-272",
+      "type": "application",
+      "name": "net-tools",
+      "version": "1.60-25ubuntu2.1",
+      "purl": "pkg:deb/ubuntu/net-tools@1.60-25ubuntu2.1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-273",
+      "type": "application",
+      "name": "klibc",
+      "version": "2.0.3-0ubuntu1.14.04.3",
+      "purl": "pkg:deb/ubuntu/klibc@2.0.3-0ubuntu1.14.04.3?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-275",
+          "type": "application",
+          "name": "libklibc",
+          "version": "2.0.3-0ubuntu1.14.04.3",
+          "purl": "pkg:deb/ubuntu/libklibc@2.0.3-0ubuntu1.14.04.3?arch=amd64&distro=14.04&epoch=0&source=klibc"
+        },
+        {
+          "bom-ref": "comp-277",
+          "type": "application",
+          "name": "klibc-utils",
+          "version": "2.0.3-0ubuntu1.14.04.3",
+          "purl": "pkg:deb/ubuntu/klibc-utils@2.0.3-0ubuntu1.14.04.3?arch=amd64&distro=14.04&epoch=0&source=klibc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-278",
+      "type": "application",
+      "name": "ntp",
+      "version": "4.2.6.p5+dfsg-3ubuntu2.14.04.13",
+      "purl": "pkg:deb/ubuntu/ntp@4.2.6.p5%2Bdfsg-3ubuntu2.14.04.13?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-280",
+          "type": "application",
+          "name": "ntpdate",
+          "version": "4.2.6.p5+dfsg-3ubuntu2.14.04.13",
+          "purl": "pkg:deb/ubuntu/ntpdate@4.2.6.p5%2Bdfsg-3ubuntu2.14.04.13?arch=amd64&distro=14.04&epoch=1&source=ntp"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-281",
+      "type": "application",
+      "name": "iproute2",
+      "version": "3.12.0-2ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/iproute2@3.12.0-2ubuntu1.2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-282",
+      "type": "application",
+      "name": "pam",
+      "version": "1.1.8-1ubuntu2.2",
+      "purl": "pkg:deb/ubuntu/pam@1.1.8-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-284",
+          "type": "application",
+          "name": "libpam0g",
+          "version": "1.1.8-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libpam0g@1.1.8-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=pam"
+        },
+        {
+          "bom-ref": "comp-286",
+          "type": "application",
+          "name": "libpam-modules",
+          "version": "1.1.8-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libpam-modules@1.1.8-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=pam"
+        },
+        {
+          "bom-ref": "comp-288",
+          "type": "application",
+          "name": "libpam-runtime",
+          "version": "1.1.8-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libpam-runtime@1.1.8-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=pam"
+        },
+        {
+          "bom-ref": "comp-290",
+          "type": "application",
+          "name": "libpam-modules-bin",
+          "version": "1.1.8-1ubuntu2.2",
+          "purl": "pkg:deb/ubuntu/libpam-modules-bin@1.1.8-1ubuntu2.2?arch=amd64&distro=14.04&epoch=0&source=pam"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-291",
+      "type": "application",
+      "name": "perl",
+      "version": "5.18.2-2ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/perl@5.18.2-2ubuntu1.7?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-293",
+          "type": "application",
+          "name": "perl-modules",
+          "version": "5.18.2-2ubuntu1.7",
+          "purl": "pkg:deb/ubuntu/perl-modules@5.18.2-2ubuntu1.7?arch=all&distro=14.04&epoch=0&source=perl"
+        },
+        {
+          "bom-ref": "comp-295",
+          "type": "application",
+          "name": "perl-base",
+          "version": "5.18.2-2ubuntu1.7",
+          "purl": "pkg:deb/ubuntu/perl-base@5.18.2-2ubuntu1.7?arch=all&distro=14.04&epoch=0&source=perl"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-296",
+      "type": "application",
+      "name": "libsepol",
+      "version": "2.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libsepol@2.2-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-298",
+          "type": "application",
+          "name": "libsepol1",
+          "version": "2.2-1ubuntu0.1",
+          "purl": "pkg:deb/ubuntu/libsepol1@2.2-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0&source=libsepol"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-299",
+      "type": "application",
+      "name": "cron",
+      "version": "3.0pl1-124ubuntu2",
+      "purl": "pkg:deb/ubuntu/cron@3.0pl1-124ubuntu2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-300",
+      "type": "application",
+      "name": "ubuntu-meta",
+      "version": "1.325.1",
+      "purl": "pkg:deb/ubuntu/ubuntu-meta@1.325.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-302",
+          "type": "application",
+          "name": "ubuntu-minimal",
+          "version": "1.325.1",
+          "purl": "pkg:deb/ubuntu/ubuntu-minimal@1.325.1?arch=amd64&distro=14.04&epoch=0&source=ubuntu-meta"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-303",
+      "type": "application",
+      "name": "makedev",
+      "version": "2.3.1-93ubuntu2~ubuntu14.04.1",
+      "purl": "pkg:deb/ubuntu/makedev@2.3.1-93ubuntu2~ubuntu14.04.1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-304",
+      "type": "application",
+      "name": "popt",
+      "version": "1.16-8ubuntu1",
+      "purl": "pkg:deb/ubuntu/popt@1.16-8ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-306",
+          "type": "application",
+          "name": "libpopt0",
+          "version": "1.16-8ubuntu1",
+          "purl": "pkg:deb/ubuntu/libpopt0@1.16-8ubuntu1?arch=amd64&distro=14.04&epoch=0&source=popt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-307",
+      "type": "application",
+      "name": "json-c",
+      "version": "0.11-3ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/json-c@0.11-3ubuntu1.2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-309",
+          "type": "application",
+          "name": "libjson-c2",
+          "version": "0.11-3ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libjson-c2@0.11-3ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=json-c"
+        },
+        {
+          "bom-ref": "comp-311",
+          "type": "application",
+          "name": "libjson0",
+          "version": "0.11-3ubuntu1.2",
+          "purl": "pkg:deb/ubuntu/libjson0@0.11-3ubuntu1.2?arch=amd64&distro=14.04&epoch=0&source=json-c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-312",
+      "type": "application",
+      "name": "slang2",
+      "version": "2.2.4-15ubuntu1",
+      "purl": "pkg:deb/ubuntu/slang2@2.2.4-15ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-314",
+          "type": "application",
+          "name": "libslang2",
+          "version": "2.2.4-15ubuntu1",
+          "purl": "pkg:deb/ubuntu/libslang2@2.2.4-15ubuntu1?arch=amd64&distro=14.04&epoch=0&source=slang2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-315",
+      "type": "application",
+      "name": "libtasn1-6",
+      "version": "3.4-3ubuntu0.6",
+      "purl": "pkg:deb/ubuntu/libtasn1-6@3.4-3ubuntu0.6?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-316",
+      "type": "application",
+      "name": "lvm2",
+      "version": "2.02.98-6ubuntu2",
+      "purl": "pkg:deb/ubuntu/lvm2@2.02.98-6ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-318",
+          "type": "application",
+          "name": "libdevmapper1.02.1",
+          "version": "2.02.98-6ubuntu2",
+          "purl": "pkg:deb/ubuntu/libdevmapper1.02.1@2.02.98-6ubuntu2?arch=amd64&distro=14.04&epoch=0&source=lvm2"
+        },
+        {
+          "bom-ref": "comp-320",
+          "type": "application",
+          "name": "dmsetup",
+          "version": "2.02.98-6ubuntu2",
+          "purl": "pkg:deb/ubuntu/dmsetup@2.02.98-6ubuntu2?arch=amd64&distro=14.04&epoch=0&source=lvm2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-321",
+      "type": "application",
+      "name": "libmodule-pluggable-perl",
+      "version": "5.1-1",
+      "purl": "pkg:deb/ubuntu/libmodule-pluggable-perl@5.1-1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-322",
+      "type": "application",
+      "name": "eglibc",
+      "version": "2.19-0ubuntu6.15",
+      "purl": "pkg:deb/ubuntu/eglibc@2.19-0ubuntu6.15?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-324",
+          "type": "application",
+          "name": "libc-bin",
+          "version": "2.19-0ubuntu6.15",
+          "purl": "pkg:deb/ubuntu/libc-bin@2.19-0ubuntu6.15?arch=amd64&distro=14.04&epoch=0&source=eglibc"
+        },
+        {
+          "bom-ref": "comp-326",
+          "type": "application",
+          "name": "multiarch-support",
+          "version": "2.19-0ubuntu6.15",
+          "purl": "pkg:deb/ubuntu/multiarch-support@2.19-0ubuntu6.15?arch=amd64&distro=14.04&epoch=0&source=eglibc"
+        },
+        {
+          "bom-ref": "comp-328",
+          "type": "application",
+          "name": "libc6",
+          "version": "2.19-0ubuntu6.15",
+          "purl": "pkg:deb/ubuntu/libc6@2.19-0ubuntu6.15?arch=amd64&distro=14.04&epoch=0&source=eglibc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-329",
+      "type": "application",
+      "name": "audit",
+      "version": "2.3.2-2ubuntu1",
+      "purl": "pkg:deb/ubuntu/audit@2.3.2-2ubuntu1?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-331",
+          "type": "application",
+          "name": "libaudit1",
+          "version": "2.3.2-2ubuntu1",
+          "purl": "pkg:deb/ubuntu/libaudit1@2.3.2-2ubuntu1?arch=amd64&distro=14.04&epoch=1&source=audit"
+        },
+        {
+          "bom-ref": "comp-333",
+          "type": "application",
+          "name": "libaudit-common",
+          "version": "2.3.2-2ubuntu1",
+          "purl": "pkg:deb/ubuntu/libaudit-common@2.3.2-2ubuntu1?arch=amd64&distro=14.04&epoch=1&source=audit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-334",
+      "type": "application",
+      "name": "libpng",
+      "version": "1.2.50-1ubuntu2.14.04.3",
+      "purl": "pkg:deb/ubuntu/libpng@1.2.50-1ubuntu2.14.04.3?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-336",
+          "type": "application",
+          "name": "libpng12-0",
+          "version": "1.2.50-1ubuntu2.14.04.3",
+          "purl": "pkg:deb/ubuntu/libpng12-0@1.2.50-1ubuntu2.14.04.3?arch=amd64&distro=14.04&epoch=0&source=libpng"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-337",
+      "type": "application",
+      "name": "python3.4",
+      "version": "3.4.3-1ubuntu1~14.04.7",
+      "purl": "pkg:deb/ubuntu/python3.4@3.4.3-1ubuntu1~14.04.7?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-339",
+          "type": "application",
+          "name": "libpython3.4-minimal",
+          "version": "3.4.3-1ubuntu1~14.04.7",
+          "purl": "pkg:deb/ubuntu/libpython3.4-minimal@3.4.3-1ubuntu1~14.04.7?arch=amd64&distro=14.04&epoch=0&source=python3.4"
+        },
+        {
+          "bom-ref": "comp-341",
+          "type": "application",
+          "name": "python3.4-minimal",
+          "version": "3.4.3-1ubuntu1~14.04.7",
+          "purl": "pkg:deb/ubuntu/python3.4-minimal@3.4.3-1ubuntu1~14.04.7?arch=amd64&distro=14.04&epoch=0&source=python3.4"
+        },
+        {
+          "bom-ref": "comp-343",
+          "type": "application",
+          "name": "libpython3.4-stdlib",
+          "version": "3.4.3-1ubuntu1~14.04.7",
+          "purl": "pkg:deb/ubuntu/libpython3.4-stdlib@3.4.3-1ubuntu1~14.04.7?arch=amd64&distro=14.04&epoch=0&source=python3.4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-344",
+      "type": "application",
+      "name": "diffutils",
+      "version": "3.3-1",
+      "purl": "pkg:deb/ubuntu/diffutils@3.3-1?arch=amd64&distro=14.04&epoch=1"
+    },
+    {
+      "bom-ref": "comp-345",
+      "type": "application",
+      "name": "logrotate",
+      "version": "3.8.7-1ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/logrotate@3.8.7-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-346",
+      "type": "application",
+      "name": "ubuntu-advantage-tools",
+      "version": "19.6~ubuntu14.04.3",
+      "purl": "pkg:deb/ubuntu/ubuntu-advantage-tools@19.6~ubuntu14.04.3?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-347",
+      "type": "application",
+      "name": "openssl",
+      "version": "1.0.1f-1ubuntu2.27",
+      "purl": "pkg:deb/ubuntu/openssl@1.0.1f-1ubuntu2.27?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-349",
+          "type": "application",
+          "name": "libssl1.0.0",
+          "version": "1.0.1f-1ubuntu2.27",
+          "purl": "pkg:deb/ubuntu/libssl1.0.0@1.0.1f-1ubuntu2.27?arch=amd64&distro=14.04&epoch=0&source=openssl"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-350",
+      "type": "application",
+      "name": "libestr",
+      "version": "0.1.9-0ubuntu2",
+      "purl": "pkg:deb/ubuntu/libestr@0.1.9-0ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-352",
+          "type": "application",
+          "name": "libestr0",
+          "version": "0.1.9-0ubuntu2",
+          "purl": "pkg:deb/ubuntu/libestr0@0.1.9-0ubuntu2?arch=amd64&distro=14.04&epoch=0&source=libestr"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-353",
+      "type": "application",
+      "name": "kbd",
+      "version": "1.15.5-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/kbd@1.15.5-1ubuntu1?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-354",
+      "type": "application",
+      "name": "ustr",
+      "version": "1.0.4-3ubuntu2",
+      "purl": "pkg:deb/ubuntu/ustr@1.0.4-3ubuntu2?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-356",
+          "type": "application",
+          "name": "libustr-1.0-1",
+          "version": "1.0.4-3ubuntu2",
+          "purl": "pkg:deb/ubuntu/libustr-1.0-1@1.0.4-3ubuntu2?arch=amd64&distro=14.04&epoch=0&source=ustr"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-357",
+      "type": "application",
+      "name": "mawk",
+      "version": "1.3.3-17ubuntu2",
+      "purl": "pkg:deb/ubuntu/mawk@1.3.3-17ubuntu2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-358",
+      "type": "application",
+      "name": "gcc-4.8",
+      "version": "4.8.4-2ubuntu1~14.04.4",
+      "purl": "pkg:deb/ubuntu/gcc-4.8@4.8.4-2ubuntu1~14.04.4?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-360",
+          "type": "application",
+          "name": "gcc-4.8-base",
+          "version": "4.8.4-2ubuntu1~14.04.4",
+          "purl": "pkg:deb/ubuntu/gcc-4.8-base@4.8.4-2ubuntu1~14.04.4?arch=amd64&distro=14.04&epoch=0&source=gcc-4.8"
+        },
+        {
+          "bom-ref": "comp-362",
+          "type": "application",
+          "name": "libstdc++6",
+          "version": "4.8.4-2ubuntu1~14.04.4",
+          "purl": "pkg:deb/ubuntu/libstdc%2B%2B6@4.8.4-2ubuntu1~14.04.4?arch=amd64&distro=14.04&epoch=0&source=gcc-4.8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-363",
+      "type": "application",
+      "name": "insserv",
+      "version": "1.14.0-5ubuntu2",
+      "purl": "pkg:deb/ubuntu/insserv@1.14.0-5ubuntu2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-364",
+      "type": "application",
+      "name": "init-system-helpers",
+      "version": "1.14ubuntu1",
+      "purl": "pkg:deb/ubuntu/init-system-helpers@1.14ubuntu1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-365",
+      "type": "application",
+      "name": "resolvconf",
+      "version": "1.69ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/resolvconf@1.69ubuntu1.4?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-366",
+      "type": "application",
+      "name": "xkeyboard-config",
+      "version": "2.10.1-1ubuntu1",
+      "purl": "pkg:deb/ubuntu/xkeyboard-config@2.10.1-1ubuntu1?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-368",
+          "type": "application",
+          "name": "xkb-data",
+          "version": "2.10.1-1ubuntu1",
+          "purl": "pkg:deb/ubuntu/xkb-data@2.10.1-1ubuntu1?arch=all&distro=14.04&epoch=0&source=xkeyboard-config"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-369",
+      "type": "application",
+      "name": "db5.3",
+      "version": "5.3.28-3ubuntu3.1",
+      "purl": "pkg:deb/ubuntu/db5.3@5.3.28-3ubuntu3.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-371",
+          "type": "application",
+          "name": "libdb5.3",
+          "version": "5.3.28-3ubuntu3.1",
+          "purl": "pkg:deb/ubuntu/libdb5.3@5.3.28-3ubuntu3.1?arch=amd64&distro=14.04&epoch=0&source=db5.3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-372",
+      "type": "application",
+      "name": "bash",
+      "version": "4.3-7ubuntu1.7",
+      "purl": "pkg:deb/ubuntu/bash@4.3-7ubuntu1.7?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-373",
+      "type": "application",
+      "name": "kmod",
+      "version": "15-0ubuntu7",
+      "purl": "pkg:deb/ubuntu/kmod@15-0ubuntu7?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-375",
+          "type": "application",
+          "name": "module-init-tools",
+          "version": "15-0ubuntu7",
+          "purl": "pkg:deb/ubuntu/module-init-tools@15-0ubuntu7?arch=all&distro=14.04&epoch=0&source=kmod"
+        },
+        {
+          "bom-ref": "comp-377",
+          "type": "application",
+          "name": "libkmod2",
+          "version": "15-0ubuntu7",
+          "purl": "pkg:deb/ubuntu/libkmod2@15-0ubuntu7?arch=all&distro=14.04&epoch=0&source=kmod"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-378",
+      "type": "application",
+      "name": "procps",
+      "version": "3.3.9-1ubuntu2.3",
+      "purl": "pkg:deb/ubuntu/procps@3.3.9-1ubuntu2.3?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-380",
+          "type": "application",
+          "name": "libprocps3",
+          "version": "3.3.9-1ubuntu2.3",
+          "purl": "pkg:deb/ubuntu/libprocps3@3.3.9-1ubuntu2.3?arch=amd64&distro=14.04&epoch=1&source=procps"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-381",
+      "type": "application",
+      "name": "liblockfile",
+      "version": "1.09-6ubuntu1",
+      "purl": "pkg:deb/ubuntu/liblockfile@1.09-6ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-383",
+          "type": "application",
+          "name": "liblockfile-bin",
+          "version": "1.09-6ubuntu1",
+          "purl": "pkg:deb/ubuntu/liblockfile-bin@1.09-6ubuntu1?arch=amd64&distro=14.04&epoch=0&source=liblockfile"
+        },
+        {
+          "bom-ref": "comp-385",
+          "type": "application",
+          "name": "liblockfile1",
+          "version": "1.09-6ubuntu1",
+          "purl": "pkg:deb/ubuntu/liblockfile1@1.09-6ubuntu1?arch=amd64&distro=14.04&epoch=0&source=liblockfile"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-386",
+      "type": "application",
+      "name": "libpod-latex-perl",
+      "version": "0.61-1",
+      "purl": "pkg:deb/ubuntu/libpod-latex-perl@0.61-1?arch=all&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-387",
+      "type": "application",
+      "name": "libyaml",
+      "version": "0.1.4-3ubuntu3.1",
+      "purl": "pkg:deb/ubuntu/libyaml@0.1.4-3ubuntu3.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-389",
+          "type": "application",
+          "name": "libyaml-0-2",
+          "version": "0.1.4-3ubuntu3.1",
+          "purl": "pkg:deb/ubuntu/libyaml-0-2@0.1.4-3ubuntu3.1?arch=amd64&distro=14.04&epoch=0&source=libyaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-390",
+      "type": "application",
+      "name": "busybox",
+      "version": "1.21.0-1ubuntu1.4",
+      "purl": "pkg:deb/ubuntu/busybox@1.21.0-1ubuntu1.4?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-392",
+          "type": "application",
+          "name": "busybox-initramfs",
+          "version": "1.21.0-1ubuntu1.4",
+          "purl": "pkg:deb/ubuntu/busybox-initramfs@1.21.0-1ubuntu1.4?arch=amd64&distro=14.04&epoch=1&source=busybox"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-393",
+      "type": "application",
+      "name": "libselinux",
+      "version": "2.2.2-1ubuntu0.1",
+      "purl": "pkg:deb/ubuntu/libselinux@2.2.2-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-395",
+          "type": "application",
+          "name": "libselinux1",
+          "version": "2.2.2-1ubuntu0.1",
+          "purl": "pkg:deb/ubuntu/libselinux1@2.2.2-1ubuntu0.1?arch=amd64&distro=14.04&epoch=0&source=libselinux"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-396",
+      "type": "application",
+      "name": "cpio",
+      "version": "2.11+dfsg-1ubuntu1.2",
+      "purl": "pkg:deb/ubuntu/cpio@2.11%2Bdfsg-1ubuntu1.2?arch=amd64&distro=14.04&epoch=0"
+    },
+    {
+      "bom-ref": "comp-397",
+      "type": "application",
+      "name": "shadow",
+      "version": "4.1.5.1-1ubuntu9.5",
+      "purl": "pkg:deb/ubuntu/shadow@4.1.5.1-1ubuntu9.5?arch=amd64&distro=14.04&epoch=1",
+      "components": [
+        {
+          "bom-ref": "comp-399",
+          "type": "application",
+          "name": "login",
+          "version": "4.1.5.1-1ubuntu9.5",
+          "purl": "pkg:deb/ubuntu/login@4.1.5.1-1ubuntu9.5?arch=amd64&distro=14.04&epoch=1&source=shadow"
+        },
+        {
+          "bom-ref": "comp-401",
+          "type": "application",
+          "name": "passwd",
+          "version": "4.1.5.1-1ubuntu9.5",
+          "purl": "pkg:deb/ubuntu/passwd@4.1.5.1-1ubuntu9.5?arch=amd64&distro=14.04&epoch=1&source=shadow"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-402",
+      "type": "application",
+      "name": "libgpg-error",
+      "version": "1.12-0.2ubuntu1",
+      "purl": "pkg:deb/ubuntu/libgpg-error@1.12-0.2ubuntu1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-404",
+          "type": "application",
+          "name": "libgpg-error0",
+          "version": "1.12-0.2ubuntu1",
+          "purl": "pkg:deb/ubuntu/libgpg-error0@1.12-0.2ubuntu1?arch=amd64&distro=14.04&epoch=0&source=libgpg-error"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-405",
+      "type": "application",
+      "name": "langpack-locales",
+      "version": "2.13+git20120306-12.1",
+      "purl": "pkg:deb/ubuntu/langpack-locales@2.13%2Bgit20120306-12.1?arch=all&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-407",
+          "type": "application",
+          "name": "locales",
+          "version": "2.13+git20120306-12.1",
+          "purl": "pkg:deb/ubuntu/locales@2.13%2Bgit20120306-12.1?arch=all&distro=14.04&epoch=0&source=langpack-locales"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-408",
+      "type": "application",
+      "name": "e2fsprogs",
+      "version": "1.42.9-3ubuntu1.3",
+      "purl": "pkg:deb/ubuntu/e2fsprogs@1.42.9-3ubuntu1.3?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-410",
+          "type": "application",
+          "name": "e2fslibs",
+          "version": "1.42.9-3ubuntu1.3",
+          "purl": "pkg:deb/ubuntu/e2fslibs@1.42.9-3ubuntu1.3?arch=amd64&distro=14.04&epoch=0&source=e2fsprogs"
+        },
+        {
+          "bom-ref": "comp-412",
+          "type": "application",
+          "name": "libcomerr2",
+          "version": "1.42.9-3ubuntu1.3",
+          "purl": "pkg:deb/ubuntu/libcomerr2@1.42.9-3ubuntu1.3?arch=amd64&distro=14.04&epoch=0&source=e2fsprogs"
+        },
+        {
+          "bom-ref": "comp-414",
+          "type": "application",
+          "name": "libss2",
+          "version": "1.42.9-3ubuntu1.3",
+          "purl": "pkg:deb/ubuntu/libss2@1.42.9-3ubuntu1.3?arch=amd64&distro=14.04&epoch=0&source=e2fsprogs"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-415",
+      "type": "application",
+      "name": "cyrus-sasl2",
+      "version": "2.1.25.dfsg1-17build1",
+      "purl": "pkg:deb/ubuntu/cyrus-sasl2@2.1.25.dfsg1-17build1?arch=amd64&distro=14.04&epoch=0",
+      "components": [
+        {
+          "bom-ref": "comp-417",
+          "type": "application",
+          "name": "libsasl2-modules",
+          "version": "2.1.25.dfsg1-17build1",
+          "purl": "pkg:deb/ubuntu/libsasl2-modules@2.1.25.dfsg1-17build1?arch=amd64&distro=14.04&epoch=0&source=cyrus-sasl2"
+        },
+        {
+          "bom-ref": "comp-419",
+          "type": "application",
+          "name": "libsasl2-2",
+          "version": "2.1.25.dfsg1-17build1",
+          "purl": "pkg:deb/ubuntu/libsasl2-2@2.1.25.dfsg1-17build1?arch=amd64&distro=14.04&epoch=0&source=cyrus-sasl2"
+        },
+        {
+          "bom-ref": "comp-421",
+          "type": "application",
+          "name": "libsasl2-modules-db",
+          "version": "2.1.25.dfsg1-17build1",
+          "purl": "pkg:deb/ubuntu/libsasl2-modules-db@2.1.25.dfsg1-17build1?arch=amd64&distro=14.04&epoch=0&source=cyrus-sasl2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-422",
+      "type": "library",
+      "name": "Python",
+      "version": "2.7.6",
+      "purl": "pkg:pypi/Python@2.7.6",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python2.7/lib-dynload/Python-2.7.egg-info"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-423",
+      "type": "library",
+      "name": "ubuntu-advantage-tools",
+      "version": "19.6",
+      "purl": "pkg:pypi/ubuntu-advantage-tools@19.6",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python3/dist-packages/ubuntu_advantage_tools-19.6.egg-info/PKG-INFO"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:is_duplicate_package",
+          "value": "true"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:duplicate_purl",
+          "value": "pkg:deb/ubuntu/ubuntu-advantage-tools@19.6~ubuntu14.04.3?arch=amd64&distro=14.04&epoch=0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-424",
+      "type": "library",
+      "name": "PyYAML",
+      "version": "3.10",
+      "purl": "pkg:pypi/PyYAML@3.10",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python3/dist-packages/PyYAML-3.10.egg-info"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:is_duplicate_package",
+          "value": "true"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:duplicate_purl",
+          "value": "pkg:deb/ubuntu/python3-yaml@3.10-4ubuntu0.1?arch=amd64&distro=14.04&epoch=0&source=pyyaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-425",
+      "type": "library",
+      "name": "argparse",
+      "version": "1.2.1",
+      "purl": "pkg:pypi/argparse@1.2.1",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python2.7/argparse.egg-info"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-426",
+      "type": "library",
+      "name": "wsgiref",
+      "version": "0.1.2",
+      "purl": "pkg:pypi/wsgiref@0.1.2",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:source_path",
+          "value": "/usr/lib/python2.7/wsgiref.egg-info"
+        }
+      ]
+    },
+    {
+      "bom-ref": "comp-427",
+      "type": "file",
+      "name": "dockerfile:comp-1.Dockerfile",
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-006-001",
+          "value": "affected_lines:2-2"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-004",
+          "value": "affected_lines:8-8"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-001",
+          "value": "affected_lines:7-7"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-003",
+          "value": "affected_lines:6-6"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-002",
+          "value": "affected_lines:4-4"
+        },
+        {
+          "name": "amazon:inspector:sbom_generator:dockerfile_finding:IN-DOCKER-005-003",
+          "value": "affected_lines:3-3"
+        }
+      ]
+    }
+  ]
+}

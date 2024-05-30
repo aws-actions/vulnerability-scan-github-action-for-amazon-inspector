@@ -1,0 +1,426 @@
+{
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "components": [
+      {
+        "bom-ref": "comp-1",
+        "name": "dockerfile:Dockerfile",
+        "properties": [
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-004",
+            "value": "affected_lines:10-10"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-003",
+            "value": "affected_lines:18-18"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-001",
+            "value": "affected_lines:22-22"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-005-003",
+            "value": "affected_lines:34-34"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-006-001",
+            "value": "affected_lines:38-38"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-001",
+            "value": "affected_lines:34-34"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-002",
+            "value": "affected_lines:23-23"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-003",
+            "value": "affected_lines:24-24"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-004",
+            "value": "affected_lines:25-25"
+          },
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-002",
+            "value": "affected_lines:30-30"
+          }
+        ],
+        "type": "file"
+      }
+    ],
+    "metadata": {
+      "properties": [
+        {
+          "name": "amazon:inspector:sbom_scanner:critical_vulnerabilities",
+          "value": "4"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:high_vulnerabilities",
+          "value": "2"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:medium_vulnerabilities",
+          "value": "0"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:low_vulnerabilities",
+          "value": "0"
+        },
+        {
+          "name": "amazon:inspector:sbom_scanner:other_vulnerabilities",
+          "value": "4"
+        }
+      ],
+      "timestamp": "2024-05-20T16:10:27.985Z",
+      "tools": {
+        "services": [
+          {
+            "name": "Amazon Inspector Scan SBOM API",
+            "version": "a679a626+9a9f9d12+3afcd0e8"
+          }
+        ]
+      }
+    },
+    "serialNumber": "urn:uuid:4c38e68b-3698-45ea-8ae7-03f778e690b5",
+    "specVersion": "1.5",
+    "vulnerabilities": [
+      {
+        "advisories": [
+          {
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-1",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Secret Detected: AWS Access Key ID.",
+        "id": "IN-DOCKER-007-001",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "critical",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.npmjs.com/cli/v10/using-npm/config"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-2",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Weakened Environment Variable: 'NPM_CONFIG_STRICT_SSL' is false, disabling TLS certificate validation when 'npm' makes requests to the Node Package Manager registry via https.",
+        "id": "IN-DOCKER-006-001",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "high",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-3",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Secret Detected: GitHub Personal Access Token.",
+        "id": "IN-DOCKER-007-003",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "critical",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.docker.com/develop/develop-images/instructions/"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-4",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Avoid installing or using sudo as it has unpredictable TTY and signal-forwarding behavior that can cause problems.",
+        "id": "IN-DOCKER-002",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "info",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://manpages.debian.org/stretch/apt/apt-get.8.en.html"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-5",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Weakened Shell Command Exec Flag: 'apt-get --allow-unauthenticated' installs Advantaged package tool (APT) packages on Debian-based Linux distributions without validating package signatures.",
+        "id": "IN-DOCKER-005-003",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "high",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://manpages.debian.org/stretch/apt/apt.8.en.html"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-6",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Use of apt: 'apt' does not have a stable CLI interface for non-interactive use.",
+        "id": "IN-DOCKER-004",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "info",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-7",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Secret Detected: GitLab Personal Access Token.",
+        "id": "IN-DOCKER-007-004",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "critical",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.docker.com/security/for-developers/access-tokens/"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-8",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Secret Detected: Dockerhub Personal Access Token.",
+        "id": "IN-DOCKER-007-002",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "critical",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.docker.com/develop/develop-images/instructions/"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-9",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "apt-get layer caching: Using apt-get update alone in a RUN statement causes caching issues and subsequent apt-get install instructions to fail.",
+        "id": "IN-DOCKER-001",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "info",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      },
+      {
+        "advisories": [
+          {
+            "url": "https://docs.docker.com/develop/develop-images/instructions/"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-10",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "Last USER is root: If a service can run without privileges, use USER to change to a non-root user.",
+        "id": "IN-DOCKER-003",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "info",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      }
+    ]
+  }
+}
