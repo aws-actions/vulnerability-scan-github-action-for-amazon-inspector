@@ -1,0 +1,47 @@
+{
+  "bom-ref": "comp-1",
+  "name": "dockerfile:Dockerfile",
+  "properties": [
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-004",
+      "value": "affected_lines:10-10"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-003",
+      "value": "affected_lines:18-18"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-001",
+      "value": "affected_lines:22-22"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-005-003",
+      "value": "affected_lines:34-34"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-006-001",
+      "value": "affected_lines:38-38"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-001",
+      "value": "affected_lines:34-34"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-002",
+      "value": "affected_lines:23-23"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-003",
+      "value": "affected_lines:24-24"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-007-004",
+      "value": "affected_lines:25-25"
+    },
+    {
+      "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-002",
+      "value": "affected_lines:30-30"
+    }
+  ],
+  "type": "file"
+}
