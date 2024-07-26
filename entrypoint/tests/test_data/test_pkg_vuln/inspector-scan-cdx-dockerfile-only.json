@@ -1,0 +1,56 @@
+{
+  "sbom": {
+    "specVersion": "1.5",
+    "metadata": {},
+    "bomFormat": "CycloneDX",
+    "components": [
+      {
+        "bom-ref": "comp-1",
+        "name": "dockerfile:Dockerfile",
+        "properties": [
+          {
+            "name": "amazon:inspector:sbom_scanner:dockerfile_finding:IN-DOCKER-001",
+            "value": "affected_lines:34-34"
+          }
+        ],
+        "type": "file"
+      }
+    ],
+    "vulnerabilities": [
+      {
+        "advisories": [
+          {
+            "url": "https://docs.docker.com/develop/develop-images/instructions/"
+          }
+        ],
+        "affects": [
+          {
+            "ref": "comp-1"
+          }
+        ],
+        "analysis": {
+          "state": "in_triage"
+        },
+        "bom-ref": "vuln-1",
+        "created": "2024-03-27T14:36:39Z",
+        "description": "apt-get layer caching: Using apt-get update alone in a RUN statement causes caching issues and subsequent apt-get install instructions to fail.",
+        "id": "IN-DOCKER-001",
+        "ratings": [
+          {
+            "method": "other",
+            "severity": "info",
+            "source": {
+              "name": "AMAZON_INSPECTOR",
+              "url": "https://aws.amazon.com/inspector/"
+            }
+          }
+        ],
+        "source": {
+          "name": "AMAZON_INSPECTOR",
+          "url": "https://aws.amazon.com/inspector/"
+        },
+        "updated": "2024-03-27T14:36:39Z"
+      }
+    ]
+  }
+}
