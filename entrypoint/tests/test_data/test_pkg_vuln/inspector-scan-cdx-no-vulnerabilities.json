@@ -1,0 +1,17 @@
+{
+    "sbom": {
+        "specVersion": "1.5",
+        "metadata": {},
+        "components": [
+            {
+                "bom-ref": "comp-8",
+                "name": "openssl",
+                "purl": "pkg:apk/alpine/openssl@3.1.1-r1?arch=x86_64&distro=3.18.2",
+                "type": "application",
+                "version": "3.1.1-r1"
+            }
+        ],
+        "bomFormat": "CycloneDX",
+        "vulnerabilities": null
+    }
+}

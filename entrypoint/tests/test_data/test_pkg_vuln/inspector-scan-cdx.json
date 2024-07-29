@@ -1,0 +1,290 @@
+{
+    "sbom": {
+        "specVersion": "1.5",
+        "metadata": {},
+        "bomFormat": "CycloneDX",
+        "components": [
+            {
+                "bom-ref": "comp-1",
+                "name": "pkg-1",
+                "type": "library",
+                "purl": "pkg:golang/github.com/test-namespace/pkg-1@v0.4.0",
+                "version": "0.4.0",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:path",
+                        "value": "/user/local/bin/pkg-1"
+                    }
+                ]
+            },
+            {
+                "bom-ref": "comp-2",
+                "name": "pkg-2",
+                "type": "library",
+                "purl": "pkg:golang/github.com/test-namespace/pkg-2@v2.4.0",
+                "version": "2.4.0",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:path",
+                        "value": "/tmp/pkg-2"
+                    }
+                ]
+            },
+            {
+                "bom-ref": "comp-3",
+                "name": "pkg-3",
+                "type": "library",
+                "purl": "pkg:golang/github.com/test-namespace/pkg-3@v3.0.0",
+                "version": "3.0.0",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:path",
+                        "value": "/tmp/pkg-3"
+                    }
+                ]
+            },
+            {
+                "bom-ref": "comp-4",
+                "name": "pkg-4",
+                "type": "library",
+                "purl": "pkg:golang/github.com/test-namespace/pkg-4@v4.0.0",
+                "version": "4.0.0",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:path",
+                        "value": "/tmp/pkg-4"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:info",
+                        "value": "Component skipped: no rules found."
+                    }
+                ]
+            },
+            {
+                "bom-ref": "comp-5",
+                "name": "pkg-5",
+                "type": "library",
+                "purl": "pkg:golang/github.com/test-namespace/pkg-5@v5.0.0",
+                "version": "5.0.0",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:path",
+                        "value": "/tmp/pkg-5"
+                    }
+                ]
+            }
+        ],
+        "vulnerabilities": [
+            {
+                "advisories": [
+                    {
+                        "url": "https://sourceware.org/bugzilla/"
+                    }
+                ],
+                "bom-ref": "vuln-1",
+                "ratings": [
+                    {
+                        "severity": "high",
+                        "score": 9.1,
+                        "method": "CVSSv31",
+                        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                        "source": {
+                            "name": "MITRE",
+                            "url": "https://www.cve.org/"
+                        }
+                    },
+                    {
+                        "severity": "none",
+                        "score": 0.00044,
+                        "method": "other",
+                        "vector": "model:v2023.03.01,date:2024-05-21T00:00:00+0000",
+                        "source": {
+                            "name": "EPSS",
+                            "url": "https://api.first.org/"
+                        }
+                    },
+                    {
+                        "severity": "medium",
+                        "score": 5.5,
+                        "method": "CVSSv31",
+                        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                        "source": {
+                            "name": "NVD",
+                            "url": "https://nvd.nist.gov/"
+                        }
+                    }
+                ],
+                "created": "2023-06-25T17:15:14Z",
+                "description": "TEST_DESCRIPTION",
+                "affects": [
+                    {
+                        "ref": "comp-1"
+                    },
+                    {
+                        "ref": "comp-2"
+                    }
+                ],
+                "id": "CVE-2015-20109",
+                "source": {
+                    "name": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20109"
+                },
+                "cwes": [
+                    120
+                ],
+                "analysis": {
+                    "state": "exploitable"
+                },
+                "updated": "2023-07-31T19:15:15Z",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_available",
+                        "value": "true"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_last_seen_in_public",
+                        "value": "2024-05-17T05:13:34Z"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:fixed_version:comp-1",
+                        "value": "pkg-1"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:fixed_version:comp-2",
+                        "value": "pkg-2"
+                    }
+                ]
+            },
+            {
+                "advisories": [
+                    {
+                        "url": "https://sourceware.org/bugzilla/"
+                    }
+                ],
+                "bom-ref": "vuln-2",
+                "ratings": [
+                    {
+                        "severity": "high",
+                        "score": 9.1,
+                        "method": "CVSSv31",
+                        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                        "source": {
+                            "name": "MITRE",
+                            "url": "https://www.cve.org/"
+                        }
+                    },
+                    {
+                        "severity": "none",
+                        "score": 0.00022,
+                        "method": "other",
+                        "vector": "model:v2023.03.01,date:2024-05-21T00:00:00+0000",
+                        "source": {
+                            "name": "EPSS",
+                            "url": "https://api.first.org/"
+                        }
+                    },
+                    {
+                        "severity": "medium",
+                        "method": "other",
+                        "source": {
+                            "name": "AMAZON_INSPECTOR"
+                        }
+                    }
+                ],
+                "created": "2023-06-25T17:15:14Z",
+                "description": "TEST_DESCRIPTION",
+                "affects": [
+                    {
+                        "ref": "comp-3"
+                    }
+                ],
+                "id": "CVE-2000-20109",
+                "source": {
+                    "name": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20109"
+                },
+                "cwes": [
+                    120
+                ],
+                "analysis": {
+                    "state": "exploitable"
+                },
+                "updated": "2023-07-31T19:15:15Z",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_available",
+                        "value": "true"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_last_seen_in_public",
+                        "value": "2024-05-17T05:13:34Z"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:fixed_version:comp-3",
+                        "value": "pkg-3"
+                    }
+                ]
+            },
+            {
+                "advisories": [
+                    {
+                        "url": "https://sourceware.org/bugzilla/"
+                    }
+                ],
+                "bom-ref": "vuln-3",
+                "ratings": [
+                    {
+                        "severity": "none",
+                        "score": 0.00022,
+                        "method": "other",
+                        "vector": "model:v2023.03.01,date:2024-05-21T00:00:00+0000",
+                        "source": {
+                            "name": "EPSS",
+                            "url": "https://api.first.org/"
+                        }
+                    },
+                    {
+                        "severity": "unknown",
+                        "method": "other",
+                        "source": {
+                            "name": "AMAZON_INSPECTOR"
+                        }
+                    }
+                ],
+                "created": "2023-06-25T17:15:14Z",
+                "description": "TEST_DESCRIPTION",
+                "affects": [
+                    {
+                        "ref": "comp-5"
+                    }
+                ],
+                "id": "CVE-2024-30000",
+                "source": {
+                    "name": "NVD",
+                    "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-20109"
+                },
+                "cwes": [
+                    120
+                ],
+                "analysis": {
+                    "state": "exploitable"
+                },
+                "updated": "2023-07-31T19:15:15Z",
+                "properties": [
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_available",
+                        "value": "true"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:exploit_last_seen_in_public",
+                        "value": "2024-05-17T05:13:34Z"
+                    },
+                    {
+                        "name": "amazon:inspector:sbom_scanner:fixed_version:comp-3",
+                        "value": "pkg-5"
+                    }
+                ]
+            }
+        ]
+    }
+}
